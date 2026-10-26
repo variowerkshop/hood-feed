@@ -13,8 +13,16 @@ IH7959-400-44.5 | Jordan 3 Retro Levi's Indigo
 IH7959-400-45.5 | Jordan 3 Retro Levi's Indigo
 IH7959-400-47.5 | Jordan 3 Retro Levi's Indigo
 IH7959-400-49.5 | Jordan 3 Retro Levi's Indigo
+IQ8058-400-27.5 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-28.5 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-29.5 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-30 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-31 | Jordan 3 Retro Levi's Indigo (PS)
 IQ8058-400-31.5 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-33 | Jordan 3 Retro Levi's Indigo (PS)
 IQ8058-400-33.5 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-34 | Jordan 3 Retro Levi's Indigo (PS)
+IQ8058-400-35 | Jordan 3 Retro Levi's Indigo (PS)
 IW2872-700-45.5 | Jordan 4 Retro J Balvin Lemonade
 IO2463-102-40.5 | Jordan 4 Retro Rare Air Tour Yellow (2026)
 IO2463-102-41 | Jordan 4 Retro Rare Air Tour Yellow (2026)
@@ -125,6 +133,9 @@ HQ3818-002-44.5 | Nike P-6000 Anthracite
 HQ3818-002-45 | Nike P-6000 Anthracite
 HQ3818-002-45.5 | Nike P-6000 Anthracite
 HQ3818-002-46 | Nike P-6000 Anthracite
+CD6404-034-40.5 | Nike P-6000 Dark Smoke Grey Volt
+CD6404-034-41 | Nike P-6000 Dark Smoke Grey Volt
+CD6404-034-42 | Nike P-6000 Dark Smoke Grey Volt
 CD6404-034-42.5 | Nike P-6000 Dark Smoke Grey Volt
 CD6404-034-44.5 | Nike P-6000 Dark Smoke Grey Volt
 CD6404-034-45.5 | Nike P-6000 Dark Smoke Grey Volt

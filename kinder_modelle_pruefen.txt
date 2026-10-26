@@ -4,7 +4,7 @@ SKU | Modell | Kategorie (Jungen=29530, Maedchen=29519)
 CD0609-051 | Nike Air Max Plus Black/Blue (GS) | Jungen
 DH2920-001 | Nike Air Force 1 Low Black (GS) (FV5951-001) | Jungen
 DH2920-111 | Nike Air Force 1 Low LE Triple White (GS) (FV5951-111) | Jungen
-DQ8423-602 | Jordan 1 Mid Pink Gaze (GS) | Jungen
+DQ8423-602 | Jordan 1 Mid Pink Gaze (GS) | Maedchen
 DR7996-001 | Nike Air Max Plus TN Triple Black (TD) | Jungen
 FN0236-600 | Nike Air Force 1 Low Easy On Pink / White (TD) | Maedchen
 HF4779-100 | Jordan 1 Low Chlorophyll (GS) | Jungen
