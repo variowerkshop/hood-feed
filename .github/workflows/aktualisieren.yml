@@ -2,7 +2,7 @@ name: Hood-Datei aktualisieren
 
 on:
   schedule:
-    - cron: "23 */3 * * *"      # alle 3 Stunden (UTC), zur Minute 23
+    - cron: "23 * * * *"      # jede Stunde, zur Minute 23
   workflow_dispatch:             # zusaetzlich per Knopf "Run workflow"
 
 permissions:
@@ -32,6 +32,7 @@ jobs:
           KATEGORIE_JUNGEN: ${{ vars.KATEGORIE_JUNGEN }}
           KATEGORIE_MAEDCHEN: ${{ vars.KATEGORIE_MAEDCHEN }}
           MAX_MENGE: ${{ vars.MAX_MENGE }}
+          MIN_GEWINN: ${{ vars.MIN_GEWINN }}
         run: python golden_zu_hood.py
 
       - name: Ergebnis speichern
