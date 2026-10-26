@@ -25,7 +25,7 @@ MAX_BILDER     = 5             # Anzahl Bilder pro Artikel
 KATEGORIE_HERREN = "23631"   # z. B. Mode > Schuhe > Herren > Sneaker
 KATEGORIE_DAMEN  = "9139"   # Modelle mit "(Women's)" im Namen
 KATEGORIE_JUNGEN  = "29530"  # Kinder-Modelle: "(GS)", "(PS)" oder "(TD)" im Namen -> standardmaessig hier
-KATEGORIE_MAEDCHEN = "" # Kinder-Modelle, die als Maedchen-Modell gelten (siehe unten)
+KATEGORIE_MAEDCHEN = "29519" # Kinder-Modelle, die als Maedchen-Modell gelten (siehe unten)
 # Woran erkennt das Skript Maedchen-Modelle? Der Lieferant gibt das Geschlecht bei Kindern nicht an. Daher:
 MAEDCHEN_STICHWOERTER = ("girl",)                 # steht so etwas im Modellnamen -> Maedchen
 MAEDCHEN_DATEI = "maedchen_skus.txt"              # eigene Liste: eine SKU pro Zeile (z. B. DQ8423-602) -> Maedchen
