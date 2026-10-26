@@ -3,9 +3,7 @@ AA3834-100-51.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska
 AA3834-100-52.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska
 IV6750-001-47 | Jordan 1 Retro Low OG Laser Black University Red
 IR0088-001-47 | Jordan 1 Retro Low OG Last Dance At The Garden
-CK9246-200-42 | Jordan 3 Retro Fireside (Women's)
 CK9246-200-42.5 | Jordan 3 Retro Fireside (Women's)
-CK9246-200-43 | Jordan 3 Retro Fireside (Women's)
 IH7959-400-41 | Jordan 3 Retro Levi's Indigo
 IH7959-400-42 | Jordan 3 Retro Levi's Indigo
 IH7959-400-42.5 | Jordan 3 Retro Levi's Indigo
@@ -18,8 +16,6 @@ IH7959-400-49.5 | Jordan 3 Retro Levi's Indigo
 IQ8058-400-31.5 | Jordan 3 Retro Levi's Indigo (PS)
 IQ8058-400-33.5 | Jordan 3 Retro Levi's Indigo (PS)
 IW2872-700-45.5 | Jordan 4 Retro J Balvin Lemonade
-IB1519-200-41 | Jordan 4 Retro OG SP Undefeated (2025)
-IO2463-102-40 | Jordan 4 Retro Rare Air Tour Yellow (2026)
 IO2463-102-40.5 | Jordan 4 Retro Rare Air Tour Yellow (2026)
 IO2463-102-41 | Jordan 4 Retro Rare Air Tour Yellow (2026)
 IO2463-102-42 | Jordan 4 Retro Rare Air Tour Yellow (2026)
@@ -36,6 +32,9 @@ IM9113-300-39 | Jordan CJ1 T-Rexx Travis Scott Green Spark
 IM9113-300-48.5 | Jordan CJ1 T-Rexx Travis Scott Green Spark
 IM5204-001-45 | Nike Air Foamposite Pro Army Camo (2026)
 IM5204-001-46 | Nike Air Foamposite Pro Army Camo (2026)
+IR2419-100-40.5 | Nike Air Force 1 '07 Essential+ White
+IR2419-100-41 | Nike Air Force 1 '07 Essential+ White
+IR2419-100-42 | Nike Air Force 1 '07 Essential+ White
 IV4501-100-42.5 | Nike Air Force 1 Low '01 Triple White
 IV4501-100-43 | Nike Air Force 1 Low '01 Triple White
 IV4501-100-44 | Nike Air Force 1 Low '01 Triple White
@@ -64,7 +63,6 @@ IM5755-700-45.5 | Nike Air Force 1 Low Retro Premium Woven Wheat
 IM5755-700-46 | Nike Air Force 1 Low Retro Premium Woven Wheat
 CU9225-901-48.5 | Nike Air Force 1 Low Supreme Snow Camo
 CU9225-901-49.5 | Nike Air Force 1 Low Supreme Snow Camo
-HQ2037-002-45 | Nike Air Force 1 Low Un-Tiffany
 IQ9722-201-36.5 | Nike Air Force 1 Premium Cacao Wow (Women's)
 IQ9722-201-37.5 | Nike Air Force 1 Premium Cacao Wow (Women's)
 IQ9722-201-38 | Nike Air Force 1 Premium Cacao Wow (Women's)
@@ -72,14 +70,10 @@ IQ9722-201-38.5 | Nike Air Force 1 Premium Cacao Wow (Women's)
 IQ9722-201-39 | Nike Air Force 1 Premium Cacao Wow (Women's)
 IQ9722-201-40.5 | Nike Air Force 1 Premium Cacao Wow (Women's)
 IQ7635-003-41 | Nike Air Liquid Max Black Anthracite Smoke Grey
-IQ7635-003-42 | Nike Air Liquid Max Black Anthracite Smoke Grey
 IQ7635-003-42.5 | Nike Air Liquid Max Black Anthracite Smoke Grey
 IQ7635-003-43 | Nike Air Liquid Max Black Anthracite Smoke Grey
-IQ7635-003-44 | Nike Air Liquid Max Black Anthracite Smoke Grey
-IQ7635-003-44.5 | Nike Air Liquid Max Black Anthracite Smoke Grey
 IQ7635-003-45 | Nike Air Liquid Max Black Anthracite Smoke Grey
 IQ7635-003-45.5 | Nike Air Liquid Max Black Anthracite Smoke Grey
-IQ7635-003-46 | Nike Air Liquid Max Black Anthracite Smoke Grey
 IR5903-010-42 | Nike Air Max 90 Dark Cinder Mercurial Vapor 1
 IR5903-010-42.5 | Nike Air Max 90 Dark Cinder Mercurial Vapor 1
 IR5903-010-46 | Nike Air Max 90 Dark Cinder Mercurial Vapor 1
@@ -101,8 +95,6 @@ IQ0170-400-45.5 | Nike Air Max Plus French Football Federation
 IQ0170-400-46 | Nike Air Max Plus French Football Federation
 IO9841-900-42.5 | Nike Book 2 Chevrolet Pretty Penny Sanddrift/Black/Sail/Metallic Silver
 IQ8160-400-45 | Nike Cryoshot Mercurial Vapor R9 OG
-IU7766-125-38.5 | Nike Dunk Low White Pink Rise (GS)
-IU7766-125-40 | Nike Dunk Low White Pink Rise (GS)
 IW1159-700-47.5 | Nike Ja 3 Kool-Aid
 IM4260-001-42.5 | Nike Kobe 11 Elite Low Protro Fade to Black (2026)
 IM4260-001-43 | Nike Kobe 11 Elite Low Protro Fade to Black (2026)
