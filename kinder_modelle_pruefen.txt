@@ -1,4 +1,4 @@
-SKU | Modell | Kategorie (Jungen=29530, Maedchen=)
+SKU | Modell | Kategorie (Jungen=29530, Maedchen=29519)
 153265-114 | Jordan 12 Retro French Blue (2025) (GS) | Jungen
 408452-102 | Jordan 4 Retro Rare Air Tour Yellow (GS) | Jungen
 CD0609-051 | Nike Air Max Plus Black/Blue (GS) | Jungen
@@ -6,7 +6,7 @@ DH2920-001 | Nike Air Force 1 Low Black (GS) (FV5951-001) | Jungen
 DH2920-111 | Nike Air Force 1 Low LE Triple White (GS) (FV5951-111) | Jungen
 DQ8423-602 | Jordan 1 Mid Pink Gaze (GS) | Jungen
 DR7996-001 | Nike Air Max Plus TN Triple Black (TD) | Jungen
-FN0236-600 | Nike Air Force 1 Low Easy On Pink / White (TD) | Jungen
+FN0236-600 | Nike Air Force 1 Low Easy On Pink / White (TD) | Maedchen
 HF4779-100 | Jordan 1 Low Chlorophyll (GS) | Jungen
 HV4760-001 | Nike Air Force 1 Low LV8 2 Black Light Bone (GS) | Jungen
 II1271-001 | Jordan 4 Retro Black Infrared Barely Volt (GS) | Jungen
