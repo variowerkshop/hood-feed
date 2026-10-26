@@ -88,7 +88,6 @@ HJ5996-002-48 | Nike Air Max 95 OG Big Bubble Blue Tint (Women's)
 HJ5996-005-42 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's)
 HJ5996-005-42.5 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's)
 HJ5996-005-43 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's)
-HJ5996-005-44 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's)
 IM2211-001-41 | Nike Air Max 95 Premium Greedy (2026)
 IM2211-001-42 | Nike Air Max 95 Premium Greedy (2026)
 CD0609-049-38 | Nike Air Max Plus Black/Black/Volt Ice (GS)
@@ -160,7 +159,6 @@ IQ6590-002-43 | Nike P-6000 Light Smoke Grey Silver
 IQ6590-002-44 | Nike P-6000 Light Smoke Grey Silver
 IQ6590-002-44.5 | Nike P-6000 Light Smoke Grey Silver
 IV2037-900-44.5 | Nike Phantom 6 Low Elite IC SE Travis Scott Multi-Color/Metallic Gold
-IQ9951-002-42 | Nike Shox R419 Corteiz Black
 IQ9951-002-44.5 | Nike Shox R419 Corteiz Black
 IQ9951-002-46 | Nike Shox R419 Corteiz Black
 IQ9951-002-47.5 | Nike Shox R419 Corteiz Black
