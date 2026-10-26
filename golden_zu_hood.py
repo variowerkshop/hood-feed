@@ -18,7 +18,8 @@ MWST_EINKAUF   = D("0.19")     # Aufschlag auf den Netto-Einkaufspreis (Kleinunt
 VERSAND_KOSTEN = D("10")       # Pauschale fuer DHL-Versand (EUR), wird in die Kalkulation eingerechnet
 HOOD_GEBUEHR   = D("0.08")
 ZIEL_MARGE     = D("0.15")
-MAX_MENGE      = 1             # Hood-Menge = min(Lieferantenbestand, MAX_MENGE); 0 = keine Begrenzung
+MIN_GEWINN     = D("15")       # Mindestgewinn pro Paar in EUR (nach Hood-Gebuehr, Einkauf inkl. 19 %, Versand); 0 = aus
+MAX_MENGE      = 5             # Hood-Menge = min(Lieferantenbestand, MAX_MENGE); 0 = keine Begrenzung
 MAX_BILDER     = 5             # Anzahl Bilder pro Artikel
 # Hood-Kategorienummern (Marktplatz-Kategorie, siehe Anleitung in der Chat-Antwort). Pflicht! Sonst lehnt Hood alle Artikel ab.
 KATEGORIE_HERREN = "23631"   # z. B. Mode > Schuhe > Herren > Sneaker
@@ -51,13 +52,23 @@ KATEGORIE_DAMEN    = _env("KATEGORIE_DAMEN", KATEGORIE_DAMEN)
 KATEGORIE_JUNGEN   = _env("KATEGORIE_JUNGEN", KATEGORIE_JUNGEN)
 KATEGORIE_MAEDCHEN = _env("KATEGORIE_MAEDCHEN", KATEGORIE_MAEDCHEN)
 MAX_MENGE          = int(_env("MAX_MENGE", MAX_MENGE))
+MIN_GEWINN         = D(_env("MIN_GEWINN", MIN_GEWINN).replace(",", ".") if isinstance(_env("MIN_GEWINN", MIN_GEWINN), str) else str(MIN_GEWINN))
 
 SPALTEN = ['Aktion','Format','Artikel Nr','Titel','Hersteller','Marke','Beschreibung','Zustand','Menge','Preis',
            'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet']
 
+ANGEHOBEN = [0]   # Zaehler: wie viele Preise wegen MIN_GEWINN erhoeht wurden
+
 def verkaufspreis(ek):
     ek = D(str(ek))
-    return ((ek * (1 + MWST_EINKAUF) + VERSAND_KOSTEN) / (1 - HOOD_GEBUEHR - ZIEL_MARGE)).quantize(D("0.01"), ROUND_HALF_UP)
+    kosten = ek * (1 + MWST_EINKAUF) + VERSAND_KOSTEN
+    preis = (kosten / (1 - HOOD_GEBUEHR - ZIEL_MARGE)).quantize(D("0.01"), ROUND_HALF_UP)
+    if MIN_GEWINN > 0:                    # Gewinn = Preis*(1-Gebuehr) - Kosten; muss mindestens MIN_GEWINN sein
+        minimum = ((kosten + MIN_GEWINN) / (1 - HOOD_GEBUEHR)).quantize(D("0.01"), ROUND_HALF_UP)
+        if minimum > preis:
+            ANGEHOBEN[0] += 1
+            preis = minimum
+    return preis
 
 def latin1(s):
     """Text so umwandeln, dass er in ISO-8859-1 passt (Hood-Vorgabe)."""
@@ -280,6 +291,7 @@ def main():
     if ohne_bild:
         open("ohne_gueltiges_bild.txt", "w", encoding="utf-8").write("\n".join(ohne_bild))
         print(f"{len(ohne_bild)} Artikel NICHT exportiert, weil kein gueltiges Bild (Liste: ohne_gueltiges_bild.txt)")
+    if MIN_GEWINN > 0: print(f"Mindestgewinn {MIN_GEWINN} EUR pro Paar: bei {ANGEHOBEN[0]} Artikeln wurde der Preis dafuer erhoeht")
     if weg: print(f"{len(weg)} Artikel nicht mehr im Feed -> {ENTFERNT} (bei Hood hochladen, damit sie nicht weiter verkauft werden)")
 
 if __name__ == "__main__":
