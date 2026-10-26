@@ -19,7 +19,7 @@ VERSAND_KOSTEN = D("10")       # Pauschale fuer DHL-Versand (EUR), wird in die K
 HOOD_GEBUEHR   = D("0.08")
 ZIEL_MARGE     = D("0.15")
 MIN_GEWINN     = D("15")       # Mindestgewinn pro Paar in EUR (nach Hood-Gebuehr, Einkauf inkl. 19 %, Versand); 0 = aus
-MAX_MENGE      = 5             # Hood-Menge = min(Lieferantenbestand, MAX_MENGE); 0 = keine Begrenzung
+MAX_MENGE      = 1             # Hood-Menge = min(Lieferantenbestand, MAX_MENGE); 0 = keine Begrenzung
 MAX_BILDER     = 5             # Anzahl Bilder pro Artikel
 # Hood-Kategorienummern (Marktplatz-Kategorie, siehe Anleitung in der Chat-Antwort). Pflicht! Sonst lehnt Hood alle Artikel ab.
 KATEGORIE_HERREN = "23631"   # z. B. Mode > Schuhe > Herren > Sneaker
