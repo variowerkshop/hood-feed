@@ -34,6 +34,7 @@ jobs:
           MAX_MENGE: ${{ vars.MAX_MENGE }}
           MIN_GEWINN: ${{ vars.MIN_GEWINN }}
           DELTA: ${{ vars.DELTA }}
+          DELTA_STUNDEN: ${{ vars.DELTA_STUNDEN }}
         run: python golden_zu_hood.py
 
       - name: Ergebnis speichern
