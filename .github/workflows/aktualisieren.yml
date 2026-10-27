@@ -33,6 +33,7 @@ jobs:
           KATEGORIE_MAEDCHEN: ${{ vars.KATEGORIE_MAEDCHEN }}
           MAX_MENGE: ${{ vars.MAX_MENGE }}
           MIN_GEWINN: ${{ vars.MIN_GEWINN }}
+          DELTA: ${{ vars.DELTA }}
         run: python golden_zu_hood.py
 
       - name: Ergebnis speichern
