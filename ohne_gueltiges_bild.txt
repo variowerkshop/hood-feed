@@ -47,7 +47,6 @@ IV4501-100-44 | Nike Air Force 1 Low '01 Triple White
 IV4501-100-44.5 | Nike Air Force 1 Low '01 Triple White
 IW2353-001-45.5 | Nike Air Force 1 Low '07 Family Reunion Air Soul Black/Black/Cinnamon/Black
 IB6842-002-40 | Nike Air Force 1 Low '07 LV8 Black Smoke Grey
-IB6842-002-41 | Nike Air Force 1 Low '07 LV8 Black Smoke Grey
 IB6842-002-45.5 | Nike Air Force 1 Low '07 LV8 Black Smoke Grey
 IB6842-002-46 | Nike Air Force 1 Low '07 LV8 Black Smoke Grey
 IV5102-100-37.5 | Nike Air Force 1 Low '07 SE White Metallic Silver (Women's)
