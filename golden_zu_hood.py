@@ -8,6 +8,8 @@ Der Token wird abgefragt (oder per Umgebungsvariable GS_TOKEN gesetzt).
 Zum Testen ohne Internet:  python golden_zu_hood.py --feed-datei feed.json
 Es wird nur EIN Abruf gemacht (Limit der API: 3 Abrufe pro 60 Sekunden).
 """
+import hashlib
+from datetime import datetime, timezone, timedelta
 import argparse, csv, getpass, html, json, os, re, sys, unicodedata, urllib.parse, urllib.request, urllib.error
 from datetime import date
 from decimal import Decimal as D, ROUND_HALF_UP
@@ -52,6 +54,12 @@ KATEGORIE_DAMEN    = _env("KATEGORIE_DAMEN", KATEGORIE_DAMEN)
 KATEGORIE_JUNGEN   = _env("KATEGORIE_JUNGEN", KATEGORIE_JUNGEN)
 KATEGORIE_MAEDCHEN = _env("KATEGORIE_MAEDCHEN", KATEGORIE_MAEDCHEN)
 MAX_MENGE          = int(_env("MAX_MENGE", MAX_MENGE))
+# Delta-Modus (nur AUTOMATIK): Die Hood-Datei enthaelt nur kuerzlich geaenderte Artikel, damit Hood weniger Artikel zaehlt/importiert.
+DELTA          = _env("DELTA", "0") == "1"
+DELTA_STUNDEN  = int(_env("DELTA_STUNDEN", "4"))   # so lange bleibt eine Aenderung in der Datei (Hood holt stuendlich -> Puffer)
+VOLL_UHR       = int(_env("VOLL_UHR", "3"))        # UTC-Stunde, in der einmal taeglich ALLE Artikel in die Datei kommen (Sicherheitsabgleich)
+STAND_DATEI    = "hood_vollstand.csv"              # interner Gesamtstand (nicht bei Hood eintragen)
+AENDERUNG_DATEI = "aenderungen.json"
 MIN_GEWINN         = D(_env("MIN_GEWINN", MIN_GEWINN).replace(",", ".") if isinstance(_env("MIN_GEWINN", MIN_GEWINN), str) else str(MIN_GEWINN))
 
 SPALTEN = ['Aktion','Format','Artikel Nr','Titel','Hersteller','Marke','Beschreibung','Zustand','Menge','Preis',
@@ -187,6 +195,32 @@ def groesse_text(eu):
     eu = str(eu).strip()
     return eu[:-2] if eu.endswith(".0") else eu
 
+def schreiben(pfad, rows):
+    with open(pfad, "w", encoding="iso-8859-1", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=SPALTEN, delimiter=";", quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(rows)
+
+def delta_auswahl(zeilen, jetzt=None):
+    """Waehlt die Artikel, die in die Hood-Datei kommen: kuerzlich geaenderte (+ einmal taeglich alle)."""
+    jetzt = jetzt or datetime.now(timezone.utc)
+    erste = not os.path.exists(AENDERUNG_DATEI) and os.path.exists(AUSGABE)   # Umstellung: Hood kennt schon alle Artikel
+    st = json.load(open(AENDERUNG_DATEI, encoding="utf-8")) if os.path.exists(AENDERUNG_DATEI) else {}
+    neu = {}
+    for r in zeilen:
+        nr = r["Artikel Nr"]
+        h = hashlib.md5(json.dumps(r, sort_keys=True).encode("utf-8")).hexdigest()
+        e = st.get(nr)
+        if e and e["h"] == h: z = e["z"]
+        elif not e and erste: z = "2000-01-01T00:00:00+00:00"
+        else: z = jetzt.isoformat()
+        neu[nr] = {"h": h, "z": z}
+    json.dump(neu, open(AENDERUNG_DATEI, "w", encoding="utf-8"))
+    grenze = jetzt - timedelta(hours=DELTA_STUNDEN)
+    voll = jetzt.hour == VOLL_UHR
+    sel = [r for r in zeilen if voll or datetime.fromisoformat(neu[r["Artikel Nr"]]["z"]) >= grenze]
+    if not sel: sel = zeilen[:1]          # Datei nie leer lassen (1 Artikel, damit Hood keinen Fehler meldet)
+    print(f"Delta-Modus: {len(sel)} von {len(zeilen)} Artikeln in der Hood-Datei" + (" (Tagesabgleich: alle)" if voll else ""))
+    return sel
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--feed-datei", help="gespeicherte Feed-JSON statt API-Abruf (zum Testen)")
@@ -245,7 +279,8 @@ def main():
     aktive = len(zeilen)
     if AUTOMATIK:
         # Hood holt sich nur Aenderungen: Artikel, die der Lieferant nicht mehr hat, bleiben mit Menge 0 in der Datei (statt geloescht zu werden).
-        alt = list(csv.DictReader(open(AUSGABE, encoding="iso-8859-1", newline=""), delimiter=";")) if os.path.exists(AUSGABE) else []
+        _quelle = STAND_DATEI if (DELTA and os.path.exists(STAND_DATEI)) else AUSGABE
+        alt = list(csv.DictReader(open(_quelle, encoding="iso-8859-1", newline=""), delimiter=";")) if os.path.exists(_quelle) else []
         aktiv_alt = sum(1 for r in alt if r.get("Menge", "0") not in ("0", ""))
         if not zeilen or (aktiv_alt >= 20 and len(zeilen) < 0.5 * aktiv_alt):
             sys.exit(f"SICHERHEITSSTOPP: nur {len(zeilen)} Artikel im Feed, zuletzt waren es {aktiv_alt}. Datei wird NICHT veroeffentlicht (sonst wuerde Hood alles auf ausverkauft setzen).")
@@ -264,8 +299,12 @@ def main():
         json.dump(gesehen, open(GESEHEN_DATEI, "w", encoding="utf-8"), indent=0)
         zeilen.sort(key=lambda r: r["Artikel Nr"])
         print(f"Automatik: {aktive} lieferbare Artikel, {behalten} nicht mehr lieferbare mit Menge 0 behalten")
-    with open(AUSGABE, "w", encoding="iso-8859-1", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=SPALTEN, delimiter=";", quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(zeilen)
+    if AUTOMATIK and DELTA:
+        senden = delta_auswahl(zeilen)          # muss vor dem Schreiben laufen (liest die alte Hood-Datei fuer die Umstellung)
+        schreiben(STAND_DATEI, zeilen)
+        schreiben(AUSGABE, senden)
+    else:
+        schreiben(AUSGABE, zeilen)
 
     # Artikel, die beim letzten Lauf im Feed waren und jetzt fehlen (ausverkauft) -> Loesch-Datei
     alt = set(open(ZUSTAND_DATEI, encoding="utf-8").read().split()) if os.path.exists(ZUSTAND_DATEI) else set()
