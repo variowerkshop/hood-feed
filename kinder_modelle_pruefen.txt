@@ -1,6 +1,6 @@
 SKU | Modell | Kategorie (Jungen=29530, Maedchen=29519)
 1204A169-001 | ASICS Gel-1130 Black Pure Silver (GS) | Jungen
-1204A169-700 | ASICS Gel-1130 Lavender Glow Pure Silver (GS) | Jungen
+1204A169-700 | ASICS Gel-1130 Lavender Glow Pure Silver (GS) | Maedchen
 153265-114 | Jordan 12 Retro French Blue (2025) (GS) | Jungen
 408452-102 | Jordan 4 Retro Rare Air Tour Yellow (GS) | Jungen
 CD0609-051 | Nike Air Max Plus Black/Blue (GS) | Jungen
