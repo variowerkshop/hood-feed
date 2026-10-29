@@ -149,7 +149,6 @@ IH2559-201-37.5 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://
 IH2559-201-38 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
 IH2559-201-40.5 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
 IH2559-201-41 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
-IH2559-201-42 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
 IH2559-201-42.5 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
 IH2559-201-44 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
 IH2559-201-44.5 | Nike Shox TL Velvet Brown Metallic Silver (Women's) | https://media.goldensneakers.net/images/IH2559-201/main/ | HTTP Error 403: Forbidden
