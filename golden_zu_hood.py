@@ -15,7 +15,7 @@ from datetime import date
 from decimal import Decimal as D, ROUND_HALF_UP
 
 # ---------------- Einstellungen (hier anpassen) ----------------
-MARKEN         = ("jordan", "nike")   # nur diese Marken (klein geschrieben, wie brand_name im Feed)
+MARKEN         = ("jordan", "nike", "asics")   # nur diese Marken (klein geschrieben, wie brand_name im Feed)
 MWST_EINKAUF   = D("0.19")     # Aufschlag auf den Netto-Einkaufspreis (Kleinunternehmer: keine Vorsteuer)
 VERSAND_KOSTEN = D("10")       # Pauschale fuer DHL-Versand (EUR), wird in die Kalkulation eingerechnet
 HOOD_GEBUEHR   = D("0.08")
