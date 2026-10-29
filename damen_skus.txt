@@ -1,0 +1,3 @@
+# Eine SKU pro Zeile, die in die Damen-Kategorie soll (Modelle ohne "(Women's)" im Namen).
+# Zeilen mit # sind Kommentare. Beispiel (ohne #):
+# 1202A000-100

@@ -31,6 +31,7 @@ KATEGORIE_MAEDCHEN = "29519" # Kinder-Modelle, die als Maedchen-Modell gelten (s
 # Woran erkennt das Skript Maedchen-Modelle? Der Lieferant gibt das Geschlecht bei Kindern nicht an. Daher:
 MAEDCHEN_STICHWOERTER = ("girl",)                 # steht so etwas im Modellnamen -> Maedchen
 MAEDCHEN_DATEI = "maedchen_skus.txt"              # eigene Liste: eine SKU pro Zeile (z. B. DQ8423-602) -> Maedchen
+DAMEN_DATEI    = "damen_skus.txt"                 # eigene Liste: eine SKU pro Zeile -> Damen-Kategorie (fuer Damenmodelle ohne "(Women's)" im Namen, z. B. Asics)
 JUNGEN_DATEI   = "jungen_skus.txt"                # eigene Liste: eine SKU pro Zeile -> Jungen (hat Vorrang vor Stichwoertern)
 KINDER_LISTE   = "kinder_modelle_pruefen.txt"     # wird erzeugt: alle Kinder-Modelle mit der gewaehlten Zuordnung
 MWST_SPALTE    = "0"           # Kleinunternehmer; vorher an 2-3 Artikeln bei Hood testen
@@ -58,7 +59,7 @@ MAX_MENGE          = int(_env("MAX_MENGE", MAX_MENGE))
 AUSSCHLUSS = tuple(x.strip().lower() for x in _env("AUSSCHLUSS", "(td)").split(",") if x.strip()) if _env("AUSSCHLUSS", "(td)") != "-" else ()
 # Delta-Modus (nur AUTOMATIK): Die Hood-Datei enthaelt nur kuerzlich geaenderte Artikel, damit Hood weniger Artikel zaehlt/importiert.
 DELTA          = _env("DELTA", "0") == "1"
-DELTA_STUNDEN  = int(_env("DELTA_STUNDEN", "4"))   # so lange bleibt eine Aenderung in der Datei (Hood holt stuendlich -> Puffer)
+DELTA_STUNDEN  = int(_env("DELTA_STUNDEN", "2"))   # so lange bleibt eine Aenderung in der Datei (Hood holt stuendlich -> Puffer)
 VOLL_UHR       = int(_env("VOLL_UHR", "3"))        # UTC-Stunde, in der einmal taeglich ALLE Artikel in die Datei kommen (Sicherheitsabgleich)
 STAND_DATEI    = "hood_vollstand.csv"              # interner Gesamtstand (nicht bei Hood eintragen)
 AENDERUNG_DATEI = "aenderungen.json"
@@ -184,11 +185,13 @@ def bild_pruefen(url):
     return ergebnis
 
 def _sku_liste(datei):
-    return {z.strip().upper() for z in open(datei, encoding="utf-8").read().split() if z.strip()} if os.path.exists(datei) else set()
+    if not os.path.exists(datei): return set()
+    zeilen = [z.split("#")[0].strip() for z in open(datei, encoding="utf-8").read().splitlines()]   # Zeilen/Teile nach # sind Kommentare
+    return {z.upper() for z in zeilen if z}
 
 def kategorie(name, sku=""):
     n = name.lower()
-    if "(women" in n: return KATEGORIE_DAMEN or KATEGORIE_HERREN
+    if "(women" in n or sku.upper() in _sku_liste(DAMEN_DATEI): return KATEGORIE_DAMEN or KATEGORIE_HERREN
     if any(k in n for k in ("(gs)", "(ps)", "(td)")):
         jungen, maedchen = KATEGORIE_JUNGEN or KATEGORIE_MAEDCHEN or KATEGORIE_HERREN, KATEGORIE_MAEDCHEN or KATEGORIE_JUNGEN or KATEGORIE_HERREN
         k = sku.upper()
