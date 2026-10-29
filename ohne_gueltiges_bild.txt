@@ -133,7 +133,6 @@ IQ0294-010-42 | Nike Shox Ride 2 Black Cool Grey Silver
 IQ0294-010-45 | Nike Shox Ride 2 Black Cool Grey Silver
 IQ0294-010-45.5 | Nike Shox Ride 2 Black Cool Grey Silver
 IQ0294-010-46 | Nike Shox Ride 2 Black Cool Grey Silver
-IX0363-001-40 | Nike Shox TL Black Metallic Silver (Women's)
 IX0363-001-40.5 | Nike Shox TL Black Metallic Silver (Women's)
 IX0363-001-42.5 | Nike Shox TL Black Metallic Silver (Women's)
 IX0363-001-43 | Nike Shox TL Black Metallic Silver (Women's)
