@@ -54,6 +54,8 @@ KATEGORIE_DAMEN    = _env("KATEGORIE_DAMEN", KATEGORIE_DAMEN)
 KATEGORIE_JUNGEN   = _env("KATEGORIE_JUNGEN", KATEGORIE_JUNGEN)
 KATEGORIE_MAEDCHEN = _env("KATEGORIE_MAEDCHEN", KATEGORIE_MAEDCHEN)
 MAX_MENGE          = int(_env("MAX_MENGE", MAX_MENGE))
+# Modelle ausschliessen, deren Name eines dieser Stichwoerter enthaelt (Komma-getrennt, klein). (td) = Kleinkinder-Schuhe; leer lassen = nichts ausschliessen
+AUSSCHLUSS = tuple(x.strip().lower() for x in _env("AUSSCHLUSS", "(td)").split(",") if x.strip()) if _env("AUSSCHLUSS", "(td)") != "-" else ()
 # Delta-Modus (nur AUTOMATIK): Die Hood-Datei enthaelt nur kuerzlich geaenderte Artikel, damit Hood weniger Artikel zaehlt/importiert.
 DELTA          = _env("DELTA", "0") == "1"
 DELTA_STUNDEN  = int(_env("DELTA_STUNDEN", "4"))   # so lange bleibt eine Aenderung in der Datei (Hood holt stuendlich -> Puffer)
@@ -162,6 +164,7 @@ def bild_url(u):
 
 BILD_ENDUNG = re.compile(r"\.(png|jpe?g|webp|gif)(\?.*)?$", re.I)
 _bild_cache = {}
+_bild_grund = {}      # Adresse -> Grund, warum sie kein gueltiges Bild ist (fuer die Diagnose-Liste)
 
 def bild_pruefen(url):
     """Adressen ohne Dateiendung: Ist es wirklich ein Bild? Folgt Weiterleitungen und gibt die endgueltige Bildadresse zurueck, sonst None."""
@@ -172,8 +175,11 @@ def bild_pruefen(url):
         with urllib.request.urlopen(req, timeout=25) as r:
             if str(r.headers.get("Content-Type", "")).lower().startswith("image/"):
                 ergebnis = r.geturl()
-    except Exception:
+            else:
+                _bild_grund[url] = "kein Bild, Content-Type: " + str(r.headers.get("Content-Type", "?"))
+    except Exception as e:
         ergebnis = None
+        _bild_grund[url] = str(e)[:80]
     _bild_cache[url] = ergebnis
     return ergebnis
 
@@ -240,10 +246,13 @@ def main():
     pruefen = not a.feed_datei
     if not isinstance(feed, list): sys.exit("Unerwartete Antwort der API: " + str(feed)[:200])
 
-    ohne_bild, zuordnung, zeilen, nr_neu, uebersprungen = [], {}, [], set(), {"andere Marke": 0, "kein Schuh": 0, "kein Preis/Bestand": 0}
+    ohne_bild, zuordnung, zeilen, nr_neu, uebersprungen = [], {}, [], set(), {"andere Marke": 0, "kein Schuh": 0, "kein Preis/Bestand": 0, "ausgeschlossen": 0}
     for p in feed:
         if str(p.get("brand_name", "")).strip().lower() not in MARKEN:
             uebersprungen["andere Marke"] += 1; continue
+        _n = str(p.get("product_name") or p.get("name") or "").lower()
+        if any(k in _n for k in AUSSCHLUSS):
+            uebersprungen["ausgeschlossen"] += 1; continue
         eu = str(p.get("size_eu", "")).strip()
         if not re.fullmatch(r"\d+(\.\d+)?( \d/\d)?", eu):          # Schuhgroessen; Kleidung/Caps (S, M, XL ...) fliegen raus
             uebersprungen["kein Schuh"] += 1; continue
@@ -259,12 +268,15 @@ def main():
         if len(nr) > 20: print(f"Hinweis: Artikel Nr laenger als 20 Zeichen (Hood-Limit): {nr}"); nr = nr[:20]
         bilder = [bild_url(p.get("image_full_url") or p.get("image"))] + [bild_url(x if isinstance(x, str) else (x or {}).get("image_full_url", "")) for x in (p.get("additional_images") or [])]
         bilder = [b for b in bilder if b]
+        roh_bilder = list(bilder)
         if pruefen:
             bilder = [b if BILD_ENDUNG.search(b) else bild_pruefen(b) for b in bilder]
             bilder = [b for b in bilder if b]
         bilder = bilder[:MAX_BILDER]
         if not bilder:                       # Hood verlangt mindestens ein gueltiges Bild
-            ohne_bild.append(f"{nr} | {name}"); continue
+            if roh_bilder: ohne_bild.append(f"{nr} | {name} | {roh_bilder[0]} | {_bild_grund.get(roh_bilder[0], 'unbekannt')}")
+            else: ohne_bild.append(f"{nr} | {name} | (kein Bildlink im Feed)")
+            continue
         nr_neu.add(nr)
         zuordnung[nr] = {'sku': sku, 'size_us': str(p.get('size_us', '')).strip(), 'size_id': p.get('id')}
         zeilen.append({'Aktion': 'Synchronize', 'Format': '7', 'Artikel Nr': nr, 'Titel': f"{name} - Gr. {g}"[:100],
