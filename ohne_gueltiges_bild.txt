@@ -8,7 +8,6 @@ AA3834-100-51.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://medi
 AA3834-100-52.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://media.goldensneakers.net/images/AA3834-100/main/ | HTTP Error 403: Forbidden
 IV6750-001-47 | Jordan 1 Retro Low OG Laser Black University Red | https://media.goldensneakers.net/images/IV6750-001/main/ | HTTP Error 403: Forbidden
 IR0088-001-47 | Jordan 1 Retro Low OG Last Dance At The Garden | https://media.goldensneakers.net/images/IR0088-001/main/ | HTTP Error 403: Forbidden
-CK9246-200-42.5 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 IH7959-400-41 | Jordan 3 Retro Levi's Indigo | https://media.goldensneakers.net/images/IH7959-400/main/ | HTTP Error 403: Forbidden
 IH7959-400-42 | Jordan 3 Retro Levi's Indigo | https://media.goldensneakers.net/images/IH7959-400/main/ | HTTP Error 403: Forbidden
 IH7959-400-42.5 | Jordan 3 Retro Levi's Indigo | https://media.goldensneakers.net/images/IH7959-400/main/ | HTTP Error 403: Forbidden
