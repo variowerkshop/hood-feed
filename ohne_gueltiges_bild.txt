@@ -127,7 +127,12 @@ HQ4307-300-47.5 | Nike Mind 001 Slide Mineral Slate | https://media.goldensneake
 HQ4309-400-38 | Nike Mind 001 Slide Old Royal (Women's) | https://media.goldensneakers.net/images/HQ4309-400/main/ | HTTP Error 403: Forbidden
 HQ4309-601-38 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4309-601-39 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
+HQ4309-601-40.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
+HQ4309-601-42 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
+HQ4309-601-44.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4307-005-41 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
+HQ4307-005-44 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
+HQ4307-005-45 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
 HV8547-002-44 | Nike Moon Shoe SP Jacquemus Soft Pearl (Women's) | https://media.goldensneakers.net/images/HV8547-002/main/ | HTTP Error 403: Forbidden
 IR5279-003-44.5 | Nike P-6000 Light Smoke Grey Blue Graphite | https://media.goldensneakers.net/images/IR5279-003/main/ | HTTP Error 403: Forbidden
 IV2037-900-44.5 | Nike Phantom 6 Low Elite IC SE Travis Scott Multi-Color/Metallic Gold | https://media.goldensneakers.net/images/IV2037-900/main/ | HTTP Error 403: Forbidden
