@@ -16,9 +16,9 @@ from decimal import Decimal as D, ROUND_HALF_UP
 
 # ---------------- Einstellungen (hier anpassen) ----------------
 MARKEN         = ("jordan", "nike", "asics")   # nur diese Marken (klein geschrieben, wie brand_name im Feed)
-MWST_EINKAUF   = D("0.19")     # Aufschlag auf den Netto-Einkaufspreis (Kleinunternehmer: keine Vorsteuer)
+MWST_EINKAUF   = D("0.00")     # Aufschlag auf den Netto-Einkaufspreis (Kleinunternehmer: keine Vorsteuer)
 VERSAND_KOSTEN = D("10")       # Pauschale fuer DHL-Versand (EUR), wird in die Kalkulation eingerechnet
-HOOD_GEBUEHR   = D("0.08")
+HOOD_GEBUEHR   = D("0.06")
 ZIEL_MARGE     = D("0.15")
 MIN_GEWINN     = D("15")       # Mindestgewinn pro Paar in EUR (nach Hood-Gebuehr, Einkauf inkl. 19 %, Versand); 0 = aus
 MAX_MENGE      = 3             # Hood-Menge = min(Lieferantenbestand, MAX_MENGE); 0 = keine Begrenzung
