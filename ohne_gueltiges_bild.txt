@@ -94,7 +94,6 @@ IR5903-010-46 | Nike Air Max 90 Dark Cinder Mercurial Vapor 1 | https://media.go
 HJ5996-002-48 | Nike Air Max 95 OG Big Bubble Blue Tint (Women's) | https://media.goldensneakers.net/images/HJ5996-002/main/ | HTTP Error 403: Forbidden
 HJ5996-005-42 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's) | https://media.goldensneakers.net/images/HJ5996-005/main/ | HTTP Error 403: Forbidden
 HJ5996-005-42.5 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's) | https://media.goldensneakers.net/images/HJ5996-005/main/ | HTTP Error 403: Forbidden
-HJ5996-005-43 | Nike Air Max 95 OG Big Bubble Fresh Mint (Women's) | https://media.goldensneakers.net/images/HJ5996-005/main/ | HTTP Error 403: Forbidden
 IM2211-001-41 | Nike Air Max 95 Premium Greedy (2026) | https://media.goldensneakers.net/images/IM2211-001/main/ | HTTP Error 403: Forbidden
 IM2211-001-42 | Nike Air Max 95 Premium Greedy (2026) | https://media.goldensneakers.net/images/IM2211-001/main/ | HTTP Error 403: Forbidden
 CD0609-049-38 | Nike Air Max Plus Black/Black/Volt Ice (GS) | https://media.goldensneakers.net/images/CD0609-049/main/ | HTTP Error 403: Forbidden
