@@ -41,7 +41,6 @@ IM9113-300-48.5 | Jordan CJ1 T-Rexx Travis Scott Green Spark | https://media.gol
 IM5204-001-45 | Nike Air Foamposite Pro Army Camo (2026) | https://media.goldensneakers.net/images/IM5204-001/main/ | HTTP Error 403: Forbidden
 IM5204-001-46 | Nike Air Foamposite Pro Army Camo (2026) | https://media.goldensneakers.net/images/IM5204-001/main/ | HTTP Error 403: Forbidden
 IR2419-100-40.5 | Nike Air Force 1 '07 Essential+ White | https://media.goldensneakers.net/images/IR2419-100/main/ | HTTP Error 403: Forbidden
-IR2419-100-41 | Nike Air Force 1 '07 Essential+ White | https://media.goldensneakers.net/images/IR2419-100/main/ | HTTP Error 403: Forbidden
 IV4501-100-40 | Nike Air Force 1 Low '01 Triple White | https://media.goldensneakers.net/images/IV4501-100/main/ | HTTP Error 403: Forbidden
 IV4501-100-41 | Nike Air Force 1 Low '01 Triple White | https://media.goldensneakers.net/images/IV4501-100/main/ | HTTP Error 403: Forbidden
 IV4501-100-42 | Nike Air Force 1 Low '01 Triple White | https://media.goldensneakers.net/images/IV4501-100/main/ | HTTP Error 403: Forbidden
