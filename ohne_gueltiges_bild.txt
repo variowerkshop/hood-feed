@@ -140,7 +140,6 @@ IQ0294-010-45.5 | Nike Shox Ride 2 Black Cool Grey Silver | https://media.golden
 IQ0294-010-46 | Nike Shox Ride 2 Black Cool Grey Silver | https://media.goldensneakers.net/images/IQ0294-010/main/ | HTTP Error 403: Forbidden
 IX0363-001-40.5 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IX0363-001-42.5 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
-IX0363-001-43 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IX0363-001-44 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IX0363-001-45 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
