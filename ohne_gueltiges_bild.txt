@@ -23,7 +23,6 @@ IQ8058-400-31 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers
 IQ8058-400-31.5 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers.net/images/IQ8058-400/main/ | HTTP Error 403: Forbidden
 IQ8058-400-33 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers.net/images/IQ8058-400/main/ | HTTP Error 403: Forbidden
 IQ8058-400-33.5 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers.net/images/IQ8058-400/main/ | HTTP Error 403: Forbidden
-IQ8058-400-34 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers.net/images/IQ8058-400/main/ | HTTP Error 403: Forbidden
 IQ8058-400-35 | Jordan 3 Retro Levi's Indigo (PS) | https://media.goldensneakers.net/images/IQ8058-400/main/ | HTTP Error 403: Forbidden
 IW2872-700-45.5 | Jordan 4 Retro J Balvin Lemonade | https://media.goldensneakers.net/images/IW2872-700/main/ | HTTP Error 403: Forbidden
 IO2463-102-40.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
@@ -140,7 +139,6 @@ IQ0294-010-45 | Nike Shox Ride 2 Black Cool Grey Silver | https://media.goldensn
 IQ0294-010-45.5 | Nike Shox Ride 2 Black Cool Grey Silver | https://media.goldensneakers.net/images/IQ0294-010/main/ | HTTP Error 403: Forbidden
 IQ0294-010-46 | Nike Shox Ride 2 Black Cool Grey Silver | https://media.goldensneakers.net/images/IQ0294-010/main/ | HTTP Error 403: Forbidden
 IX0363-001-40.5 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
-IX0363-001-42.5 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IX0363-001-44 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IX0363-001-45 | Nike Shox TL Black Metallic Silver (Women's) | https://media.goldensneakers.net/images/IX0363-001/main/ | HTTP Error 403: Forbidden
 IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
