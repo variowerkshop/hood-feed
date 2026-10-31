@@ -105,7 +105,6 @@ IO9841-900-42.5 | Nike Book 2 Chevrolet Pretty Penny Sanddrift/Black/Sail/Metall
 IQ8160-400-45 | Nike Cryoshot Mercurial Vapor R9 OG | https://media.goldensneakers.net/images/IQ8160-400/main/ | HTTP Error 403: Forbidden
 IW1159-700-47.5 | Nike Ja 3 Kool-Aid | https://media.goldensneakers.net/images/IW1159-700/main/ | HTTP Error 403: Forbidden
 IM4260-001-42.5 | Nike Kobe 11 Elite Low Protro Fade to Black (2026) | https://media.goldensneakers.net/images/IM4260-001/main/ | HTTP Error 403: Forbidden
-IM4260-001-43 | Nike Kobe 11 Elite Low Protro Fade to Black (2026) | https://media.goldensneakers.net/images/IM4260-001/main/ | HTTP Error 403: Forbidden
 IM4260-001-44 | Nike Kobe 11 Elite Low Protro Fade to Black (2026) | https://media.goldensneakers.net/images/IM4260-001/main/ | HTTP Error 403: Forbidden
 IM4260-001-44.5 | Nike Kobe 11 Elite Low Protro Fade to Black (2026) | https://media.goldensneakers.net/images/IM4260-001/main/ | HTTP Error 403: Forbidden
 IM4260-001-45 | Nike Kobe 11 Elite Low Protro Fade to Black (2026) | https://media.goldensneakers.net/images/IM4260-001/main/ | HTTP Error 403: Forbidden
