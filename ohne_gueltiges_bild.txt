@@ -62,8 +62,6 @@ HQ4309-601-38 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldens
 HQ4309-601-39 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4309-601-40.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4307-005-41 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
-HV8547-002-44 | Nike Moon Shoe SP Jacquemus Soft Pearl (Women's) | https://media.goldensneakers.net/images/HV8547-002/main/ | HTTP Error 403: Forbidden
-IV2037-900-44.5 | Nike Phantom 6 Low Elite IC SE Travis Scott Multi-Color/Metallic Gold | https://media.goldensneakers.net/images/IV2037-900/main/ | HTTP Error 403: Forbidden
 IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
 IQ0627-001-40.5 | Nike Vomero Premium SP Black Mini Chrome Swoosh | https://media.goldensneakers.net/images/IQ0627-001/main/ | HTTP Error 403: Forbidden
