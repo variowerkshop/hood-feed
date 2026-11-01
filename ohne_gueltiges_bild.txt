@@ -11,7 +11,6 @@ HQ9265-44 | adidas BW Army Core White Power Green | https://media.goldensneakers
 HQ9234-40_2_3 | adidas BW Army White Night Indigo | https://media.goldensneakers.net/images/HQ9234/main/ | HTTP Error 403: Forbidden
 HQ9234-41_1_3 | adidas BW Army White Night Indigo | https://media.goldensneakers.net/images/HQ9234/main/ | HTTP Error 403: Forbidden
 HQ9234-42 | adidas BW Army White Night Indigo | https://media.goldensneakers.net/images/HQ9234/main/ | HTTP Error 403: Forbidden
-HQ9234-42_2_3 | adidas BW Army White Night Indigo | https://media.goldensneakers.net/images/HQ9234/main/ | HTTP Error 403: Forbidden
 HQ9264-41_1_3 | adidas BW Army White Team Victory Red | https://media.goldensneakers.net/images/HQ9264/main/ | HTTP Error 403: Forbidden
 HQ9264-42 | adidas BW Army White Team Victory Red | https://media.goldensneakers.net/images/HQ9264/main/ | HTTP Error 403: Forbidden
 HQ9264-43_1_3 | adidas BW Army White Team Victory Red | https://media.goldensneakers.net/images/HQ9264/main/ | HTTP Error 403: Forbidden
