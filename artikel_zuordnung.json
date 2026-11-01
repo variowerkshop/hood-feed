@@ -2368,5 +2368,1505 @@
   "sku": "FD6900-200",
   "size_us": "3.5",
   "size_id": 20654
+ },
+ "GC1906CJ-37.5": {
+  "sku": "GC1906CJ",
+  "size_us": "5",
+  "size_id": 6481
+ },
+ "G190619R-37.5": {
+  "sku": "G190619R",
+  "size_us": "5",
+  "size_id": 17756
+ },
+ "G190619R-38": {
+  "sku": "G190619R",
+  "size_us": "5.5",
+  "size_id": 17757
+ },
+ "U19062NQ-37.5": {
+  "sku": "U19062NQ",
+  "size_us": "5",
+  "size_id": 17345
+ },
+ "U2000858-36": {
+  "sku": "U2000858",
+  "size_us": "4",
+  "size_id": 15429
+ },
+ "U2000858-37": {
+  "sku": "U2000858",
+  "size_us": "4.5",
+  "size_id": 15428
+ },
+ "U2000858-39.5": {
+  "sku": "U2000858",
+  "size_us": "6.5",
+  "size_id": 15426
+ },
+ "U2000858-40.5": {
+  "sku": "U2000858",
+  "size_us": "7.5",
+  "size_id": 15424
+ },
+ "U20006OU-36": {
+  "sku": "U20006OU",
+  "size_us": "4",
+  "size_id": 17795
+ },
+ "U20006OU-37": {
+  "sku": "U20006OU",
+  "size_us": "4.5",
+  "size_id": 17794
+ },
+ "U20006OU-37.5": {
+  "sku": "U20006OU",
+  "size_us": "5",
+  "size_id": 17013
+ },
+ "U20006OU-38": {
+  "sku": "U20006OU",
+  "size_us": "5.5",
+  "size_id": 17014
+ },
+ "U20006OU-40": {
+  "sku": "U20006OU",
+  "size_us": "7",
+  "size_id": 17016
+ },
+ "M2002REK-37.5": {
+  "sku": "M2002REK",
+  "size_us": "5",
+  "size_id": 17882
+ },
+ "M2002REK-38": {
+  "sku": "M2002REK",
+  "size_us": "5.5",
+  "size_id": 17883
+ },
+ "M2002REK-44.5": {
+  "sku": "M2002REK",
+  "size_us": "10.5",
+  "size_id": 17889
+ },
+ "M20024J7-37": {
+  "sku": "M20024J7",
+  "size_us": "4.5",
+  "size_id": 17310
+ },
+ "M20024J7-37.5": {
+  "sku": "M20024J7",
+  "size_us": "5",
+  "size_id": 17306
+ },
+ "M20024R5-37": {
+  "sku": "M20024R5",
+  "size_us": "4.5",
+  "size_id": 17311
+ },
+ "M20028ZH-37": {
+  "sku": "M20028ZH",
+  "size_us": "4.5",
+  "size_id": 17334
+ },
+ "M20028ZH-37.5": {
+  "sku": "M20028ZH",
+  "size_us": "5",
+  "size_id": 17333
+ },
+ "M2002RDC-42": {
+  "sku": "M2002RDC",
+  "size_us": "8.5",
+  "size_id": 9971
+ },
+ "U2010ANV-40.5": {
+  "sku": "U2010ANV",
+  "size_us": "7.5",
+  "size_id": 10506
+ },
+ "U2010ANV-45.5": {
+  "sku": "U2010ANV",
+  "size_us": "11.5",
+  "size_id": 10501
+ },
+ "U204LMMA-37.5": {
+  "sku": "U204LMMA",
+  "size_us": "5",
+  "size_id": 14881
+ },
+ "U204LMMB-37.5": {
+  "sku": "U204LMMB",
+  "size_us": "5",
+  "size_id": 17521
+ },
+ "U204LMMB-38": {
+  "sku": "U204LMMB",
+  "size_us": "5.5",
+  "size_id": 17517
+ },
+ "U204LMMB-38.5": {
+  "sku": "U204LMMB",
+  "size_us": "6",
+  "size_id": 17520
+ },
+ "U204LMMB-39.5": {
+  "sku": "U204LMMB",
+  "size_us": "6.5",
+  "size_id": 17519
+ },
+ "U204LMMB-40": {
+  "sku": "U204LMMB",
+  "size_us": "7",
+  "size_id": 17518
+ },
+ "U204LMMB-40.5": {
+  "sku": "U204LMMB",
+  "size_us": "7.5",
+  "size_id": 17524
+ },
+ "U204LMMB-41.5": {
+  "sku": "U204LMMB",
+  "size_us": "8",
+  "size_id": 17516
+ },
+ "U204LMMB-42": {
+  "sku": "U204LMMB",
+  "size_us": "8.5",
+  "size_id": 17510
+ },
+ "U204LMMB-42.5": {
+  "sku": "U204LMMB",
+  "size_us": "9",
+  "size_id": 17515
+ },
+ "U204LMMB-44": {
+  "sku": "U204LMMB",
+  "size_us": "10",
+  "size_id": 17513
+ },
+ "U204LMMB-44.5": {
+  "sku": "U204LMMB",
+  "size_us": "10.5",
+  "size_id": 17512
+ },
+ "U50307G4-37.5": {
+  "sku": "U50307G4",
+  "size_us": "5",
+  "size_id": 19184
+ },
+ "U50307G4-44.5": {
+  "sku": "U50307G4",
+  "size_us": "10.5",
+  "size_id": 19176
+ },
+ "U50307G4-46.5": {
+  "sku": "U50307G4",
+  "size_us": "12",
+  "size_id": 19180
+ },
+ "U530CSB-36": {
+  "sku": "U530CSB",
+  "size_us": "4",
+  "size_id": 20499
+ },
+ "MR530CE-40": {
+  "sku": "MR530CE",
+  "size_us": "7",
+  "size_id": 9228
+ },
+ "MR530SNC-37": {
+  "sku": "MR530SNC",
+  "size_us": "4.5",
+  "size_id": 19668
+ },
+ "GR530KA-37.5": {
+  "sku": "GR530KA",
+  "size_us": "5",
+  "size_id": 7555
+ },
+ "MR530AAM-37.5": {
+  "sku": "MR530AAM",
+  "size_us": "5",
+  "size_id": 17647
+ },
+ "MR530EMA-40": {
+  "sku": "MR530EMA",
+  "size_us": "7",
+  "size_id": 9785
+ },
+ "MR530EMA-40.5": {
+  "sku": "MR530EMA",
+  "size_us": "7.5",
+  "size_id": 12094
+ },
+ "MR530CK-37": {
+  "sku": "MR530CK",
+  "size_us": "4.5",
+  "size_id": 14422
+ },
+ "MR530CK-37.5": {
+  "sku": "MR530CK",
+  "size_us": "5",
+  "size_id": 14421
+ },
+ "MR530CK-41.5": {
+  "sku": "MR530CK",
+  "size_us": "8",
+  "size_id": 14919
+ },
+ "U5303IR-41.5": {
+  "sku": "U5303IR",
+  "size_us": "8",
+  "size_id": 19458
+ },
+ "U53022Q-37.5": {
+  "sku": "U53022Q",
+  "size_us": "5",
+  "size_id": 20137
+ },
+ "U53022Q-40": {
+  "sku": "U53022Q",
+  "size_us": "7",
+  "size_id": 20141
+ },
+ "MR530AB-37": {
+  "sku": "MR530AB",
+  "size_us": "4.5",
+  "size_id": 21825
+ },
+ "MR530AB-37.5": {
+  "sku": "MR530AB",
+  "size_us": "5",
+  "size_id": 21826
+ },
+ "MR530AB-38": {
+  "sku": "MR530AB",
+  "size_us": "5.5",
+  "size_id": 19327
+ },
+ "MR530AB-40": {
+  "sku": "MR530AB",
+  "size_us": "7",
+  "size_id": 13397
+ },
+ "MR530SG-43": {
+  "sku": "MR530SG",
+  "size_us": "9.5",
+  "size_id": 6499
+ },
+ "MR530SG-44": {
+  "sku": "MR530SG",
+  "size_us": "10",
+  "size_id": 12104
+ },
+ "U740SG2-37": {
+  "sku": "U740SG2",
+  "size_us": "4.5",
+  "size_id": 8346
+ },
+ "U740SG2-37.5": {
+  "sku": "U740SG2",
+  "size_us": "5",
+  "size_id": 8347
+ },
+ "U740SG2-38": {
+  "sku": "U740SG2",
+  "size_us": "5.5",
+  "size_id": 8348
+ },
+ "U740SG2-38.5": {
+  "sku": "U740SG2",
+  "size_us": "6",
+  "size_id": 8349
+ },
+ "U740SG2-39.5": {
+  "sku": "U740SG2",
+  "size_us": "6.5",
+  "size_id": 8350
+ },
+ "U740SG2-41.5": {
+  "sku": "U740SG2",
+  "size_us": "8",
+  "size_id": 8353
+ },
+ "U7401T4-40": {
+  "sku": "U7401T4",
+  "size_us": "7",
+  "size_id": 17485
+ },
+ "P7407QM-28.5": {
+  "sku": "P7407QM",
+  "size_us": "11",
+  "size_id": 18100
+ },
+ "U7402EL-37": {
+  "sku": "U7402EL",
+  "size_us": "4.5",
+  "size_id": 19277
+ },
+ "U7402EL-37.5": {
+  "sku": "U7402EL",
+  "size_us": "5",
+  "size_id": 19275
+ },
+ "G7402H8-37": {
+  "sku": "G7402H8",
+  "size_us": "4.5",
+  "size_id": 17823
+ },
+ "U7402NG-37.5": {
+  "sku": "U7402NG",
+  "size_us": "5",
+  "size_id": 19290
+ },
+ "U740BO2-42.5": {
+  "sku": "U740BO2",
+  "size_us": "9",
+  "size_id": 8580
+ },
+ "U740BM2-41.5": {
+  "sku": "U740BM2",
+  "size_us": "8",
+  "size_id": 10923
+ },
+ "U740BM2-42": {
+  "sku": "U740BM2",
+  "size_us": "8.5",
+  "size_id": 6455
+ },
+ "U740BM2-43": {
+  "sku": "U740BM2",
+  "size_us": "9.5",
+  "size_id": 10924
+ },
+ "U740BM2-44": {
+  "sku": "U740BM2",
+  "size_us": "10",
+  "size_id": 6457
+ },
+ "U740N9J9-37.5": {
+  "sku": "U740N9J9",
+  "size_us": "5",
+  "size_id": 19505
+ },
+ "U740N9J9-38.5": {
+  "sku": "U740N9J9",
+  "size_us": "6",
+  "size_id": 19467
+ },
+ "U740N9J9-39.5": {
+  "sku": "U740N9J9",
+  "size_us": "6.5",
+  "size_id": 19503
+ },
+ "U740N9J9-40": {
+  "sku": "U740N9J9",
+  "size_us": "7",
+  "size_id": 19504
+ },
+ "U740WW2-41.5": {
+  "sku": "U740WW2",
+  "size_us": "8",
+  "size_id": 13700
+ },
+ "U74078Z-38": {
+  "sku": "U74078Z",
+  "size_us": "5.5",
+  "size_id": 18120
+ },
+ "U74078Z-40": {
+  "sku": "U74078Z",
+  "size_us": "7",
+  "size_id": 18117
+ },
+ "U740NW2-36": {
+  "sku": "U740NW2",
+  "size_us": "4",
+  "size_id": 13122
+ },
+ "U740NW2-37.5": {
+  "sku": "U740NW2",
+  "size_us": "5",
+  "size_id": 11432
+ },
+ "U740NW2-40": {
+  "sku": "U740NW2",
+  "size_us": "7",
+  "size_id": 10370
+ },
+ "U906078T-40": {
+  "sku": "U906078T",
+  "size_us": "7",
+  "size_id": 15683
+ },
+ "U9060BLK-41.5": {
+  "sku": "U9060BLK",
+  "size_us": "8",
+  "size_id": 683
+ },
+ "U9060BLK-42": {
+  "sku": "U9060BLK",
+  "size_us": "8.5",
+  "size_id": 684
+ },
+ "U9060BLK-42.5": {
+  "sku": "U9060BLK",
+  "size_us": "9",
+  "size_id": 685
+ },
+ "U9060BLK-44": {
+  "sku": "U9060BLK",
+  "size_us": "10",
+  "size_id": 687
+ },
+ "U9060BLK-45.5": {
+  "sku": "U9060BLK",
+  "size_us": "11.5",
+  "size_id": 681
+ },
+ "U9060BLK-46.5": {
+  "sku": "U9060BLK",
+  "size_us": "12",
+  "size_id": 3674
+ },
+ "U90602P8-40.5": {
+  "sku": "U90602P8",
+  "size_us": "7.5",
+  "size_id": 13632
+ },
+ "U90606LE-40.5": {
+  "sku": "U90606LE",
+  "size_us": "7.5",
+  "size_id": 14930
+ },
+ "U90606LE-41.5": {
+  "sku": "U90606LE",
+  "size_us": "8",
+  "size_id": 14904
+ },
+ "U90606LE-42": {
+  "sku": "U90606LE",
+  "size_us": "8.5",
+  "size_id": 14858
+ },
+ "U90606TO-40.5": {
+  "sku": "U90606TO",
+  "size_us": "7.5",
+  "size_id": 15673
+ },
+ "G90602QL-37": {
+  "sku": "G90602QL",
+  "size_us": "4.5",
+  "size_id": 13979
+ },
+ "U9060AAA-40": {
+  "sku": "U9060AAA",
+  "size_us": "7",
+  "size_id": 7329
+ },
+ "U906041H-37": {
+  "sku": "U906041H",
+  "size_us": "4.5",
+  "size_id": 16342
+ },
+ "U906041H-37.5": {
+  "sku": "U906041H",
+  "size_us": "5",
+  "size_id": 16341
+ },
+ "U906041H-42": {
+  "sku": "U906041H",
+  "size_us": "8.5",
+  "size_id": 14899
+ },
+ "U906041H-44.5": {
+  "sku": "U906041H",
+  "size_us": "10.5",
+  "size_id": 15823
+ },
+ "U906041H-45": {
+  "sku": "U906041H",
+  "size_us": "11",
+  "size_id": 15822
+ },
+ "U90602FD-44.5": {
+  "sku": "U90602FD",
+  "size_us": "10.5",
+  "size_id": 19374
+ },
+ "U90602FD-46.5": {
+  "sku": "U90602FD",
+  "size_us": "12",
+  "size_id": 19365
+ },
+ "U906011M-45": {
+  "sku": "U906011M",
+  "size_us": "11",
+  "size_id": 19361
+ },
+ "U906011M-45.5": {
+  "sku": "U906011M",
+  "size_us": "11.5",
+  "size_id": 19362
+ },
+ "U906011M-46.5": {
+  "sku": "U906011M",
+  "size_us": "12",
+  "size_id": 19363
+ },
+ "U9060JBA-46.5": {
+  "sku": "U9060JBA",
+  "size_us": "12",
+  "size_id": 7535
+ },
+ "U90609Z4-42.5": {
+  "sku": "U90609Z4",
+  "size_us": "9",
+  "size_id": 19400
+ },
+ "G906034H-36": {
+  "sku": "G906034H",
+  "size_us": "4",
+  "size_id": 14556
+ },
+ "G906034H-37.5": {
+  "sku": "G906034H",
+  "size_us": "5",
+  "size_id": 14559
+ },
+ "U90602FM-40": {
+  "sku": "U90602FM",
+  "size_us": "7",
+  "size_id": 17771
+ },
+ "U90602FM-42": {
+  "sku": "U90602FM",
+  "size_us": "8.5",
+  "size_id": 19611
+ },
+ "U90602FM-44": {
+  "sku": "U90602FM",
+  "size_us": "10",
+  "size_id": 17572
+ },
+ "U90602FM-44.5": {
+  "sku": "U90602FM",
+  "size_us": "10.5",
+  "size_id": 17732
+ },
+ "U90602FM-45": {
+  "sku": "U90602FM",
+  "size_us": "11",
+  "size_id": 17569
+ },
+ "U90602FM-45.5": {
+  "sku": "U90602FM",
+  "size_us": "11.5",
+  "size_id": 19609
+ },
+ "U9060440-37.5": {
+  "sku": "U9060440",
+  "size_us": "5",
+  "size_id": 14460
+ },
+ "U9060440-44.5": {
+  "sku": "U9060440",
+  "size_us": "10.5",
+  "size_id": 15854
+ },
+ "G90603BN-37.5": {
+  "sku": "G90603BN",
+  "size_us": "5",
+  "size_id": 17830
+ },
+ "U9060EEB-36": {
+  "sku": "U9060EEB",
+  "size_us": "4",
+  "size_id": 15398
+ },
+ "U9060EEB-37": {
+  "sku": "U9060EEB",
+  "size_us": "4.5",
+  "size_id": 9849
+ },
+ "U9060EEB-37.5": {
+  "sku": "U9060EEB",
+  "size_us": "5",
+  "size_id": 9850
+ },
+ "U9060EEB-38": {
+  "sku": "U9060EEB",
+  "size_us": "5.5",
+  "size_id": 9851
+ },
+ "U9060EEB-38.5": {
+  "sku": "U9060EEB",
+  "size_us": "6",
+  "size_id": 9852
+ },
+ "U9060EEB-40": {
+  "sku": "U9060EEB",
+  "size_us": "7",
+  "size_id": 9854
+ },
+ "U9060EEB-42.5": {
+  "sku": "U9060EEB",
+  "size_us": "9",
+  "size_id": 7117
+ },
+ "U9060ERC-45.5": {
+  "sku": "U9060ERC",
+  "size_us": "11.5",
+  "size_id": 11055
+ },
+ "U90607ET-36": {
+  "sku": "U90607ET",
+  "size_us": "4",
+  "size_id": 21004
+ },
+ "U90607ET-37": {
+  "sku": "U90607ET",
+  "size_us": "4.5",
+  "size_id": 21003
+ },
+ "U90607ET-37.5": {
+  "sku": "U90607ET",
+  "size_us": "5",
+  "size_id": 19691
+ },
+ "U90607ET-38": {
+  "sku": "U90607ET",
+  "size_us": "5.5",
+  "size_id": 19690
+ },
+ "U90607ET-38.5": {
+  "sku": "U90607ET",
+  "size_us": "6",
+  "size_id": 19689
+ },
+ "U90607ET-39.5": {
+  "sku": "U90607ET",
+  "size_us": "6.5",
+  "size_id": 21002
+ },
+ "U90607ET-40": {
+  "sku": "U90607ET",
+  "size_us": "7",
+  "size_id": 19688
+ },
+ "U90607ET-41.5": {
+  "sku": "U90607ET",
+  "size_us": "8",
+  "size_id": 19692
+ },
+ "U90607ET-42": {
+  "sku": "U90607ET",
+  "size_us": "8.5",
+  "size_id": 19686
+ },
+ "U90607ET-42.5": {
+  "sku": "U90607ET",
+  "size_us": "9",
+  "size_id": 19685
+ },
+ "U90607ET-43": {
+  "sku": "U90607ET",
+  "size_us": "9.5",
+  "size_id": 19683
+ },
+ "U90607ET-44": {
+  "sku": "U90607ET",
+  "size_us": "10",
+  "size_id": 19684
+ },
+ "U9060GRY-37.5": {
+  "sku": "U9060GRY",
+  "size_us": "5",
+  "size_id": 2607
+ },
+ "U9060GRY-40": {
+  "sku": "U9060GRY",
+  "size_us": "7",
+  "size_id": 696
+ },
+ "GC9060GY-38.5": {
+  "sku": "GC9060GY",
+  "size_us": "6",
+  "size_id": 2156
+ },
+ "U90601NR-36": {
+  "sku": "U90601NR",
+  "size_us": "4",
+  "size_id": 20986
+ },
+ "U90601NR-37": {
+  "sku": "U90601NR",
+  "size_us": "4.5",
+  "size_id": 15665
+ },
+ "U90601NR-37.5": {
+  "sku": "U90601NR",
+  "size_us": "5",
+  "size_id": 15656
+ },
+ "U90601NR-38": {
+  "sku": "U90601NR",
+  "size_us": "5.5",
+  "size_id": 15657
+ },
+ "U90601NR-38.5": {
+  "sku": "U90601NR",
+  "size_us": "6",
+  "size_id": 15658
+ },
+ "U90601NR-39.5": {
+  "sku": "U90601NR",
+  "size_us": "6.5",
+  "size_id": 15659
+ },
+ "U90601NR-40": {
+  "sku": "U90601NR",
+  "size_us": "7",
+  "size_id": 15660
+ },
+ "U90601NR-40.5": {
+  "sku": "U90601NR",
+  "size_us": "7.5",
+  "size_id": 15449
+ },
+ "U90601NR-41.5": {
+  "sku": "U90601NR",
+  "size_us": "8",
+  "size_id": 15448
+ },
+ "U90601NR-45": {
+  "sku": "U90601NR",
+  "size_us": "11",
+  "size_id": 15445
+ },
+ "U90601NR-46.5": {
+  "sku": "U90601NR",
+  "size_us": "12",
+  "size_id": 15444
+ },
+ "U90606MU-37.5": {
+  "sku": "U90606MU",
+  "size_us": "5",
+  "size_id": 15837
+ },
+ "U90606MU-38": {
+  "sku": "U90606MU",
+  "size_us": "5.5",
+  "size_id": 19483
+ },
+ "U90606MU-38.5": {
+  "sku": "U90606MU",
+  "size_us": "6",
+  "size_id": 19381
+ },
+ "U90606MU-39.5": {
+  "sku": "U90606MU",
+  "size_us": "6.5",
+  "size_id": 19382
+ },
+ "U90606MU-40": {
+  "sku": "U90606MU",
+  "size_us": "7",
+  "size_id": 15838
+ },
+ "U90606LQ-42": {
+  "sku": "U90606LQ",
+  "size_us": "8.5",
+  "size_id": 20442
+ },
+ "U90606LQ-42.5": {
+  "sku": "U90606LQ",
+  "size_us": "9",
+  "size_id": 20441
+ },
+ "U90606LQ-43": {
+  "sku": "U90606LQ",
+  "size_us": "9.5",
+  "size_id": 20440
+ },
+ "U90606LQ-44": {
+  "sku": "U90606LQ",
+  "size_us": "10",
+  "size_id": 20439
+ },
+ "U90605HS-41.5": {
+  "sku": "U90605HS",
+  "size_us": "8",
+  "size_id": 20425
+ },
+ "U90605HS-42": {
+  "sku": "U90605HS",
+  "size_us": "8.5",
+  "size_id": 20423
+ },
+ "U90605HS-42.5": {
+  "sku": "U90605HS",
+  "size_us": "9",
+  "size_id": 20422
+ },
+ "U90605GN-38": {
+  "sku": "U90605GN",
+  "size_us": "5.5",
+  "size_id": 20404
+ },
+ "U90605GN-40": {
+  "sku": "U90605GN",
+  "size_us": "7",
+  "size_id": 20406
+ },
+ "U90605GN-41.5": {
+  "sku": "U90605GN",
+  "size_us": "8",
+  "size_id": 20408
+ },
+ "U90605GN-42": {
+  "sku": "U90605GN",
+  "size_us": "8.5",
+  "size_id": 20415
+ },
+ "U90605GN-42.5": {
+  "sku": "U90605GN",
+  "size_us": "9",
+  "size_id": 20410
+ },
+ "U90605GN-43": {
+  "sku": "U90605GN",
+  "size_us": "9.5",
+  "size_id": 20411
+ },
+ "U90605GN-44": {
+  "sku": "U90605GN",
+  "size_us": "10",
+  "size_id": 20412
+ },
+ "U90605GN-44.5": {
+  "sku": "U90605GN",
+  "size_us": "10.5",
+  "size_id": 20402
+ },
+ "U90605GN-45": {
+  "sku": "U90605GN",
+  "size_us": "11",
+  "size_id": 20403
+ },
+ "U9060LBC-37.5": {
+  "sku": "U9060LBC",
+  "size_us": "5",
+  "size_id": 6231
+ },
+ "U906040V-42": {
+  "sku": "U906040V",
+  "size_us": "8.5",
+  "size_id": 17028
+ },
+ "U906040V-42.5": {
+  "sku": "U906040V",
+  "size_us": "9",
+  "size_id": 17032
+ },
+ "U906040V-43": {
+  "sku": "U906040V",
+  "size_us": "9.5",
+  "size_id": 17031
+ },
+ "G90601XW-36": {
+  "sku": "G90601XW",
+  "size_us": "4",
+  "size_id": 20985
+ },
+ "G90601XW-37": {
+  "sku": "G90601XW",
+  "size_us": "4.5",
+  "size_id": 20984
+ },
+ "G90601XW-37.5": {
+  "sku": "G90601XW",
+  "size_us": "5",
+  "size_id": 16837
+ },
+ "G90601XW-38": {
+  "sku": "G90601XW",
+  "size_us": "5.5",
+  "size_id": 16836
+ },
+ "G90601XW-38.5": {
+  "sku": "G90601XW",
+  "size_us": "6",
+  "size_id": 16839
+ },
+ "G90601XW-39": {
+  "sku": "G90601XW",
+  "size_us": "6.5",
+  "size_id": 16838
+ },
+ "G90601XW-40": {
+  "sku": "G90601XW",
+  "size_us": "7",
+  "size_id": 20983
+ },
+ "U9060AGA-41.5": {
+  "sku": "U9060AGA",
+  "size_us": "8",
+  "size_id": 6808
+ },
+ "U90601KA-36": {
+  "sku": "U90601KA",
+  "size_us": "4",
+  "size_id": 19194
+ },
+ "U90601KA-37": {
+  "sku": "U90601KA",
+  "size_us": "4.5",
+  "size_id": 15647
+ },
+ "U90601KA-37.5": {
+  "sku": "U90601KA",
+  "size_us": "5",
+  "size_id": 15648
+ },
+ "U90601KA-38": {
+  "sku": "U90601KA",
+  "size_us": "5.5",
+  "size_id": 15649
+ },
+ "U90601KA-39.5": {
+  "sku": "U90601KA",
+  "size_us": "6.5",
+  "size_id": 15651
+ },
+ "U90601KA-40.5": {
+  "sku": "U90601KA",
+  "size_us": "7.5",
+  "size_id": 15653
+ },
+ "U90601KA-46.5": {
+  "sku": "U90601KA",
+  "size_us": "12",
+  "size_id": 15210
+ },
+ "U9060ESE-45.5": {
+  "sku": "U9060ESE",
+  "size_us": "11.5",
+  "size_id": 8288
+ },
+ "U9060ERD-37": {
+  "sku": "U9060ERD",
+  "size_us": "4.5",
+  "size_id": 9813
+ },
+ "U9060ERD-37.5": {
+  "sku": "U9060ERD",
+  "size_us": "5",
+  "size_id": 9812
+ },
+ "U9060ERD-38": {
+  "sku": "U9060ERD",
+  "size_us": "5.5",
+  "size_id": 9814
+ },
+ "U9060ERD-41.5": {
+  "sku": "U9060ERD",
+  "size_us": "8",
+  "size_id": 10914
+ },
+ "U9060ERD-42": {
+  "sku": "U9060ERD",
+  "size_us": "8.5",
+  "size_id": 10908
+ },
+ "U9060ERD-42.5": {
+  "sku": "U9060ERD",
+  "size_us": "9",
+  "size_id": 10913
+ },
+ "U9060ERD-43": {
+  "sku": "U9060ERD",
+  "size_us": "9.5",
+  "size_id": 10912
+ },
+ "U9060ERD-44": {
+  "sku": "U9060ERD",
+  "size_us": "10",
+  "size_id": 10911
+ },
+ "U9060ERD-45": {
+  "sku": "U9060ERD",
+  "size_us": "11",
+  "size_id": 14045
+ },
+ "U9060ERD-46.5": {
+  "sku": "U9060ERD",
+  "size_us": "12",
+  "size_id": 18940
+ },
+ "U9060JGB-41.5": {
+  "sku": "U9060JGB",
+  "size_us": "8",
+  "size_id": 19439
+ },
+ "G90603MI-37.5": {
+  "sku": "G90603MI",
+  "size_us": "5",
+  "size_id": 17833
+ },
+ "G90603MI-38": {
+  "sku": "G90603MI",
+  "size_us": "5.5",
+  "size_id": 17834
+ },
+ "G90603MI-39": {
+  "sku": "G90603MI",
+  "size_us": "6.5",
+  "size_id": 15400
+ },
+ "G90603MI-40": {
+  "sku": "G90603MI",
+  "size_us": "7",
+  "size_id": 17873
+ },
+ "U9060152-37": {
+  "sku": "U9060152",
+  "size_us": "4.5",
+  "size_id": 19136
+ },
+ "U9060152-37.5": {
+  "sku": "U9060152",
+  "size_us": "5",
+  "size_id": 19135
+ },
+ "U9060152-38": {
+  "sku": "U9060152",
+  "size_us": "5.5",
+  "size_id": 19134
+ },
+ "U9060152-38.5": {
+  "sku": "U9060152",
+  "size_us": "6",
+  "size_id": 19155
+ },
+ "U9060152-39.5": {
+  "sku": "U9060152",
+  "size_us": "6.5",
+  "size_id": 19156
+ },
+ "U9060152-40": {
+  "sku": "U9060152",
+  "size_us": "7",
+  "size_id": 19132
+ },
+ "U9060152-40.5": {
+  "sku": "U9060152",
+  "size_us": "7.5",
+  "size_id": 19157
+ },
+ "U9060152-41.5": {
+  "sku": "U9060152",
+  "size_us": "8",
+  "size_id": 19158
+ },
+ "U906029Y-37.5": {
+  "sku": "U906029Y",
+  "size_us": "5",
+  "size_id": 20353
+ },
+ "U906029Y-38": {
+  "sku": "U906029Y",
+  "size_us": "5.5",
+  "size_id": 20354
+ },
+ "U906029Y-38.5": {
+  "sku": "U906029Y",
+  "size_us": "6",
+  "size_id": 20355
+ },
+ "U906029Y-39.5": {
+  "sku": "U906029Y",
+  "size_us": "6.5",
+  "size_id": 20356
+ },
+ "U906029Y-40": {
+  "sku": "U906029Y",
+  "size_us": "7",
+  "size_id": 20357
+ },
+ "U906029Y-40.5": {
+  "sku": "U906029Y",
+  "size_us": "7.5",
+  "size_id": 20358
+ },
+ "U90604VW-37.5": {
+  "sku": "U90604VW",
+  "size_us": "5",
+  "size_id": 15218
+ },
+ "U90604VW-40": {
+  "sku": "U90604VW",
+  "size_us": "7",
+  "size_id": 15214
+ },
+ "U9060NRJ-47.5": {
+  "sku": "U9060NRJ",
+  "size_us": "13",
+  "size_id": 4763
+ },
+ "U906087O-37.5": {
+  "sku": "U906087O",
+  "size_us": "5",
+  "size_id": 15689
+ },
+ "U906087O-38.5": {
+  "sku": "U906087O",
+  "size_us": "6",
+  "size_id": 15687
+ },
+ "U906087O-42.5": {
+  "sku": "U906087O",
+  "size_us": "9",
+  "size_id": 19469
+ },
+ "U906087O-43": {
+  "sku": "U906087O",
+  "size_us": "9.5",
+  "size_id": 19616
+ },
+ "U906087O-44.5": {
+  "sku": "U906087O",
+  "size_us": "10.5",
+  "size_id": 19614
+ },
+ "U906087O-45.5": {
+  "sku": "U906087O",
+  "size_us": "11.5",
+  "size_id": 19619
+ },
+ "U906087O-46.5": {
+  "sku": "U906087O",
+  "size_us": "12",
+  "size_id": 19620
+ },
+ "U906016Y-42.5": {
+  "sku": "U906016Y",
+  "size_us": "9",
+  "size_id": 20510
+ },
+ "U90608PE-36": {
+  "sku": "U90608PE",
+  "size_us": "4",
+  "size_id": 15839
+ },
+ "U90608PE-37": {
+  "sku": "U90608PE",
+  "size_us": "4.5",
+  "size_id": 15696
+ },
+ "U90608PE-37.5": {
+  "sku": "U90608PE",
+  "size_us": "5",
+  "size_id": 15697
+ },
+ "U90608PE-38": {
+  "sku": "U90608PE",
+  "size_us": "5.5",
+  "size_id": 15699
+ },
+ "U90608PE-38.5": {
+  "sku": "U90608PE",
+  "size_us": "6",
+  "size_id": 15706
+ },
+ "U90608PE-39.5": {
+  "sku": "U90608PE",
+  "size_us": "6.5",
+  "size_id": 15700
+ },
+ "U90608PE-40": {
+  "sku": "U90608PE",
+  "size_us": "7",
+  "size_id": 15701
+ },
+ "U90608PE-40.5": {
+  "sku": "U90608PE",
+  "size_us": "7.5",
+  "size_id": 15707
+ },
+ "U90608PE-41.5": {
+  "sku": "U90608PE",
+  "size_us": "8",
+  "size_id": 15703
+ },
+ "U90608PE-44": {
+  "sku": "U90608PE",
+  "size_us": "10",
+  "size_id": 15698
+ },
+ "U90608PE-45": {
+  "sku": "U90608PE",
+  "size_us": "11",
+  "size_id": 15695
+ },
+ "U90603B6-37": {
+  "sku": "U90603B6",
+  "size_us": "4.5",
+  "size_id": 15452
+ },
+ "U90603B6-37.5": {
+  "sku": "U90603B6",
+  "size_us": "5",
+  "size_id": 15453
+ },
+ "U90603B6-38": {
+  "sku": "U90603B6",
+  "size_us": "5.5",
+  "size_id": 20618
+ },
+ "U90603B6-38.5": {
+  "sku": "U90603B6",
+  "size_us": "6",
+  "size_id": 15821
+ },
+ "U90603B6-39.5": {
+  "sku": "U90603B6",
+  "size_us": "6.5",
+  "size_id": 20617
+ },
+ "U90603B6-40": {
+  "sku": "U90603B6",
+  "size_us": "7",
+  "size_id": 15820
+ },
+ "U90603B6-40.5": {
+  "sku": "U90603B6",
+  "size_us": "7.5",
+  "size_id": 15454
+ },
+ "U90601RJ-36": {
+  "sku": "U90601RJ",
+  "size_us": "4",
+  "size_id": 21001
+ },
+ "U90601RJ-37": {
+  "sku": "U90601RJ",
+  "size_us": "4.5",
+  "size_id": 19160
+ },
+ "U90601RJ-37.5": {
+  "sku": "U90601RJ",
+  "size_us": "5",
+  "size_id": 19161
+ },
+ "U90601RJ-38": {
+  "sku": "U90601RJ",
+  "size_us": "5.5",
+  "size_id": 19162
+ },
+ "U90601RJ-38.5": {
+  "sku": "U90601RJ",
+  "size_us": "6",
+  "size_id": 19140
+ },
+ "U90601RJ-39.5": {
+  "sku": "U90601RJ",
+  "size_us": "6.5",
+  "size_id": 19164
+ },
+ "U90601RJ-40": {
+  "sku": "U90601RJ",
+  "size_us": "7",
+  "size_id": 19139
+ },
+ "U90601RJ-40.5": {
+  "sku": "U90601RJ",
+  "size_us": "7.5",
+  "size_id": 19165
+ },
+ "U90601RJ-41.5": {
+  "sku": "U90601RJ",
+  "size_us": "8",
+  "size_id": 19163
+ },
+ "U20008LL-37": {
+  "sku": "U20008LL",
+  "size_us": "4.5",
+  "size_id": 17808
+ },
+ "U20008LL-37.5": {
+  "sku": "U20008LL",
+  "size_us": "5",
+  "size_id": 17807
+ },
+ "U20008LL-38": {
+  "sku": "U20008LL",
+  "size_us": "5.5",
+  "size_id": 17806
+ },
+ "U20008LL-38.5": {
+  "sku": "U20008LL",
+  "size_us": "6",
+  "size_id": 17805
+ },
+ "U20008LL-39.5": {
+  "sku": "U20008LL",
+  "size_us": "6.5",
+  "size_id": 17804
+ },
+ "U20008LL-40": {
+  "sku": "U20008LL",
+  "size_us": "7",
+  "size_id": 17810
+ },
+ "U20008LL-40.5": {
+  "sku": "U20008LL",
+  "size_us": "7.5",
+  "size_id": 17803
+ },
+ "U20008LL-41.5": {
+  "sku": "U20008LL",
+  "size_us": "8",
+  "size_id": 17802
+ },
+ "U20008LL-45": {
+  "sku": "U20008LL",
+  "size_us": "11",
+  "size_id": 17797
+ },
+ "U20008LL-45.5": {
+  "sku": "U20008LL",
+  "size_us": "11.5",
+  "size_id": 19168
+ },
+ "U20008LL-46.5": {
+  "sku": "U20008LL",
+  "size_us": "12",
+  "size_id": 17796
+ },
+ "U20007YS-41.5": {
+  "sku": "U20007YS",
+  "size_us": "8",
+  "size_id": 18582
+ },
+ "U20007YS-42": {
+  "sku": "U20007YS",
+  "size_us": "8.5",
+  "size_id": 18598
+ },
+ "U20007YS-42.5": {
+  "sku": "U20007YS",
+  "size_us": "9",
+  "size_id": 18583
+ },
+ "U20007YS-43": {
+  "sku": "U20007YS",
+  "size_us": "9.5",
+  "size_id": 18581
+ },
+ "U20007YS-44": {
+  "sku": "U20007YS",
+  "size_us": "10",
+  "size_id": 18599
+ },
+ "U20007YS-44.5": {
+  "sku": "U20007YS",
+  "size_us": "10.5",
+  "size_id": 18580
+ },
+ "U20007YS-45": {
+  "sku": "U20007YS",
+  "size_us": "11",
+  "size_id": 18579
+ },
+ "U200087T-39.5": {
+  "sku": "U200087T",
+  "size_us": "6.5",
+  "size_id": 15432
+ },
+ "U200087T-41.5": {
+  "sku": "U200087T",
+  "size_us": "8",
+  "size_id": 15434
+ },
+ "U200087T-43": {
+  "sku": "U200087T",
+  "size_us": "9.5",
+  "size_id": 15436
+ },
+ "U200087T-44": {
+  "sku": "U200087T",
+  "size_us": "10",
+  "size_id": 15437
+ },
+ "U200087T-45": {
+  "sku": "U200087T",
+  "size_us": "11",
+  "size_id": 15442
+ },
+ "U200087T-45.5": {
+  "sku": "U200087T",
+  "size_us": "11.5",
+  "size_id": 15441
+ },
+ "U200087T-46.5": {
+  "sku": "U200087T",
+  "size_us": "12",
+  "size_id": 15440
+ },
+ "U20008QM-42": {
+  "sku": "U20008QM",
+  "size_us": "8.5",
+  "size_id": 18587
+ },
+ "U20008QM-42.5": {
+  "sku": "U20008QM",
+  "size_us": "9",
+  "size_id": 18600
+ },
+ "U20008QM-43": {
+  "sku": "U20008QM",
+  "size_us": "9.5",
+  "size_id": 18601
+ },
+ "U20008QM-44": {
+  "sku": "U20008QM",
+  "size_us": "10",
+  "size_id": 18586
+ },
+ "U20008QM-44.5": {
+  "sku": "U20008QM",
+  "size_us": "10.5",
+  "size_id": 18585
+ },
+ "U20008QM-45": {
+  "sku": "U20008QM",
+  "size_us": "11",
+  "size_id": 18584
+ },
+ "U20004GM-37": {
+  "sku": "U20004GM",
+  "size_us": "4.5",
+  "size_id": 17790
+ },
+ "U20004GM-44.5": {
+  "sku": "U20004GM",
+  "size_us": "10.5",
+  "size_id": 17004
+ },
+ "U20004GM-45": {
+  "sku": "U20004GM",
+  "size_us": "11",
+  "size_id": 17788
+ },
+ "U20004GM-45.5": {
+  "sku": "U20004GM",
+  "size_us": "11.5",
+  "size_id": 17787
+ },
+ "U20004GM-46.5": {
+  "sku": "U20004GM",
+  "size_us": "12",
+  "size_id": 17786
  }
 }
