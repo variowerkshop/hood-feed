@@ -46,7 +46,6 @@ IW2353-001-45.5 | Nike Air Force 1 Low '07 Family Reunion Air Soul Black/Black/C
 IV5102-100-37.5 | Nike Air Force 1 Low '07 SE White Metallic Silver (Women's) | https://media.goldensneakers.net/images/IV5102-100/main/ | HTTP Error 403: Forbidden
 IV5102-100-38 | Nike Air Force 1 Low '07 SE White Metallic Silver (Women's) | https://media.goldensneakers.net/images/IV5102-100/main/ | HTTP Error 403: Forbidden
 IB0018-103-41 | Nike Air Force 1 Low Kobe Bryant Forever White Armory Blue | https://media.goldensneakers.net/images/IB0018-103/main/ | HTTP Error 403: Forbidden
-IB0018-103-42 | Nike Air Force 1 Low Kobe Bryant Forever White Armory Blue | https://media.goldensneakers.net/images/IB0018-103/main/ | HTTP Error 403: Forbidden
 IB0018-103-42.5 | Nike Air Force 1 Low Kobe Bryant Forever White Armory Blue | https://media.goldensneakers.net/images/IB0018-103/main/ | HTTP Error 403: Forbidden
 JA3822-010-45.5 | Nike Air Force 1 Low Luxe Black Metallic Silver | https://media.goldensneakers.net/images/JA3822-010/main/ | HTTP Error 403: Forbidden
 IM2211-001-41 | Nike Air Max 95 Premium Greedy (2026) | https://media.goldensneakers.net/images/IM2211-001/main/ | HTTP Error 403: Forbidden
