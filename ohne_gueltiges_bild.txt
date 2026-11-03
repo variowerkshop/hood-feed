@@ -58,6 +58,7 @@ HQ4309-601-38 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldens
 HQ4309-601-39 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4309-601-40.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4307-005-41 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
+HQ4307-005-45 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
 IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
 SH1WS0020.P6303.HB42 | Salomon XT-MM6 MM6 Maison Margiela | https://media.goldensneakers.net/images/SH1WS0020.P6303.HB420/main/ | HTTP Error 403: Forbidden
