@@ -223,12 +223,13 @@ def delta_auswahl(zeilen, jetzt=None):
         else: z = jetzt.isoformat()
         neu[nr] = {"h": h, "z": z}
     json.dump(neu, open(AENDERUNG_DATEI, "w", encoding="utf-8"))
-        grenze = jetzt - timedelta(hours=DELTA_STUNDEN)
-    voll = (jetzt.hour == VOLL_UHR and jetzt.weekday() == 6)
+    grenze = jetzt - timedelta(hours=DELTA_STUNDEN)
+    voll = jetzt.hour == VOLL_UHR
     sel = [r for r in zeilen if voll or datetime.fromisoformat(neu[r["Artikel Nr"]]["z"]) >= grenze]
     if not sel: sel = zeilen[:1]          # Datei nie leer lassen (1 Artikel, damit Hood keinen Fehler meldet)
     print(f"Delta-Modus: {len(sel)} von {len(zeilen)} Artikeln in der Hood-Datei" + (" (Tagesabgleich: alle)" if voll else ""))
     return sel
+
 
 def main():
     ap = argparse.ArgumentParser()
