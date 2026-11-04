@@ -49,7 +49,6 @@ U90605SU-42.5 | New Balance 9060 Slate Grey Black | https://media.goldensneakers
 U90605SU-43 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
 U90605SU-44 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
 U90605SU-44.5 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
-U90605SU-45 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
 U90605SU-45.5 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
 U90605SU-46.5 | New Balance 9060 Slate Grey Black | https://media.goldensneakers.net/images/U90605SU/main/ | HTTP Error 403: Forbidden
 U20003OZ-37 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
