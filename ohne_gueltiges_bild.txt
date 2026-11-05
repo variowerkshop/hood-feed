@@ -136,6 +136,5 @@ CD6404-033-44 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneaker
 CD6404-033-44.5 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 CD6404-033-45 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 CD6404-033-46 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
-IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
 SH1WS0020.P6303.HB42 | Salomon XT-MM6 MM6 Maison Margiela | https://media.goldensneakers.net/images/SH1WS0020.P6303.HB420/main/ | HTTP Error 403: Forbidden
