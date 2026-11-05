@@ -138,11 +138,4 @@ CD6404-033-45 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneaker
 CD6404-033-46 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 IM4687-001-41 | Nike Shox TL Newsprint | https://media.goldensneakers.net/images/IM4687-001/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
-L49215000-36_2_3 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-37_1_3 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-38 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-38_2_3 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-39_1_3 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-40 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
-L49215000-40_2_3 | Salomon XT-6 Gore-Tex Gray Violet/Cosmic Sky/White | https://media.goldensneakers.net/images/L49215000/main/ | HTTP Error 403: Forbidden
 SH1WS0020.P6303.HB42 | Salomon XT-MM6 MM6 Maison Margiela | https://media.goldensneakers.net/images/SH1WS0020.P6303.HB420/main/ | HTTP Error 403: Forbidden
