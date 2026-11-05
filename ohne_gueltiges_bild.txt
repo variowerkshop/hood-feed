@@ -3,13 +3,6 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 KI2861-44_2_3 | adidas Superstar Pokémon Charizard | https://media.goldensneakers.net/images/KI2861/main/ | HTTP Error 403: Forbidden
 1203B005-100-40.5 | ASICS Gel-Kayano 14 Comme des Garçons SHIRT White | https://media.goldensneakers.net/images/1203B005-100/main/ | HTTP Error 403: Forbidden
 1203B005-100-42 | ASICS Gel-Kayano 14 Comme des Garçons SHIRT White | https://media.goldensneakers.net/images/1203B005-100/main/ | HTTP Error 403: Forbidden
-1203A383-118-41.5 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-42 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-42.5 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-43.5 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-44 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-44.5 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
-1203A383-118-45 | ASICS Gel-NYC White Midnight | https://media.goldensneakers.net/images/1203A383-118/main/ | HTTP Error 403: Forbidden
 CT8013-103-47.5 | Jordan 12 Retro Bucks | https://media.goldensneakers.net/images/CT8013-103/main/ | HTTP Error 403: Forbidden
 AA3834-100-51.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://media.goldensneakers.net/images/AA3834-100/main/ | HTTP Error 403: Forbidden
 AA3834-100-52.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://media.goldensneakers.net/images/AA3834-100/main/ | HTTP Error 403: Forbidden
