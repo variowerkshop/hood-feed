@@ -2,11 +2,7 @@ SKU | Modell | Kategorie (Jungen=29530, Maedchen=29519)
 153265-114 | Jordan 12 Retro French Blue (2025) (GS) | Jungen
 408452-102 | Jordan 4 Retro Rare Air Tour Yellow (GS) | Jungen
 CD0609-051 | Nike Air Max Plus Black/Blue (GS) | Jungen
-DH2920-001 | Nike Air Force 1 Low Black (GS) (FV5951-001) | Jungen
-DH2920-111 | Nike Air Force 1 Low LE Triple White (GS) (FV5951-111) | Jungen
 G190619R | New Balance 1906R Black (GS) | Jungen
-G5306DH | New Balance 530 White Mint (GS) | Jungen
-G7402H8 | New Balance 740 Silver Metallic/Deep End (GS) | Jungen
 G90601XW | New Balance 9060 Salt Water Rosewood (GS) | Maedchen
 G90602P4 | New Balance 9060 Slate Grey/Harbor Grey (GS) | Jungen
 G90602QL | New Balance 9060 Black (GS) | Jungen
@@ -17,11 +13,4 @@ G906052D | New Balance 9060 Cream Blue (GS) | Jungen
 G90605P9 | New Balance 9060 White/Blue (GS) | Jungen
 G90606LN | New Balance 9060 Bayberry/Lone Star Grey (GS) | Jungen
 GC1906CJ | New Balance 1906 Black Castlerock (GS) | Jungen
-GR740PK | New Balance 740 White (GS) | Jungen
-HV4760-001 | Nike Air Force 1 Low LV8 2 Black Light Bone (GS) | Jungen
 II1271-001 | Jordan 4 Retro Black Infrared Barely Volt (GS) | Jungen
-IQ8058-400 | Jordan 3 Retro Levi's Indigo (PS) | Jungen
-P7407QM | New Balance 740 Glint Blue (PS) | Jungen
-PC9060BE | New Balance 9060 Rose Sugar Ice Wine (PS) | Jungen
-PC9060BK | New Balance 9060 Black Castlerock (PS) | Jungen
-PC9060BL | New Balance 9060 White/Violet (PS) | Jungen
