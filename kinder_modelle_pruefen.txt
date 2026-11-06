@@ -1,14 +1,9 @@
 SKU | Modell | Kategorie (Jungen=29530, Maedchen=29519)
-1204A169-001 | ASICS Gel-1130 Black Pure Silver (GS) | Jungen
-1204A169-700 | ASICS Gel-1130 Lavender Glow Pure Silver (GS) | Maedchen
 153265-114 | Jordan 12 Retro French Blue (2025) (GS) | Jungen
 408452-102 | Jordan 4 Retro Rare Air Tour Yellow (GS) | Jungen
 CD0609-051 | Nike Air Max Plus Black/Blue (GS) | Jungen
 DH2920-001 | Nike Air Force 1 Low Black (GS) (FV5951-001) | Jungen
 DH2920-111 | Nike Air Force 1 Low LE Triple White (GS) (FV5951-111) | Jungen
-DQ8423-602 | Jordan 1 Mid Pink Gaze (GS) | Maedchen
-DR7996-001 | Nike Air Max Plus TN Triple Black (TD) | Jungen
-FN0236-600 | Nike Air Force 1 Low Easy On Pink / White (TD) | Maedchen
 G190619R | New Balance 1906R Black (GS) | Jungen
 G5306DH | New Balance 530 White Mint (GS) | Jungen
 G7402H8 | New Balance 740 Silver Metallic/Deep End (GS) | Jungen
@@ -23,7 +18,6 @@ G90605P9 | New Balance 9060 White/Blue (GS) | Jungen
 G90606LN | New Balance 9060 Bayberry/Lone Star Grey (GS) | Jungen
 GC1906CJ | New Balance 1906 Black Castlerock (GS) | Jungen
 GR740PK | New Balance 740 White (GS) | Jungen
-HF4779-100 | Jordan 1 Low Chlorophyll (GS) | Jungen
 HV4760-001 | Nike Air Force 1 Low LV8 2 Black Light Bone (GS) | Jungen
 II1271-001 | Jordan 4 Retro Black Infrared Barely Volt (GS) | Jungen
 IQ8058-400 | Jordan 3 Retro Levi's Indigo (PS) | Jungen

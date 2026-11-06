@@ -25,7 +25,6 @@ IV6750-001-47 | Jordan 1 Retro Low OG Laser Black University Red | https://media
 CK9246-200-40.5 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 CK9246-200-41 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 CK9246-200-44 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
-CK9246-200-44.5 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 IW2872-700-45.5 | Jordan 4 Retro J Balvin Lemonade | https://media.goldensneakers.net/images/IW2872-700/main/ | HTTP Error 403: Forbidden
 IO2463-102-40.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-41 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
@@ -47,7 +46,6 @@ U20109ZS-42.5 | New Balance 2010 Comme des Garçons White Grey | https://media.g
 U20109ZS-44 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U20109ZS-45 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
-G90608VL-36 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-37 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-38 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-38.5 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
@@ -87,7 +85,6 @@ IR0952-003-42.5 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media
 IR0952-003-44 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-45 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-46 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
-FV3654-111-38 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-40 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-40.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FJ4146-137-40 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.net/images/FJ4146-137/main/ | HTTP Error 403: Forbidden
@@ -137,4 +134,3 @@ CD6404-033-44.5 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneak
 CD6404-033-45 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 CD6404-033-46 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
-SH1WS0020.P6303.HB42 | Salomon XT-MM6 MM6 Maison Margiela | https://media.goldensneakers.net/images/SH1WS0020.P6303.HB420/main/ | HTTP Error 403: Forbidden
