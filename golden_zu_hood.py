@@ -56,7 +56,9 @@ KATEGORIE_JUNGEN   = _env("KATEGORIE_JUNGEN", KATEGORIE_JUNGEN)
 KATEGORIE_MAEDCHEN = _env("KATEGORIE_MAEDCHEN", KATEGORIE_MAEDCHEN)
 MAX_MENGE          = int(_env("MAX_MENGE", MAX_MENGE))
 # Modelle ausschliessen, deren Name eines dieser Stichwoerter enthaelt (Komma-getrennt, klein). (td) = Kleinkinder-Schuhe; leer lassen = nichts ausschliessen
-AUSSCHLUSS = tuple(x.strip().lower() for x in _env("AUSSCHLUSS", "(td)").split(",") if x.strip()) if _env("AUSSCHLUSS", "(td)") != "-" else ()
+AUSSCHLUSS_STANDARD = "(td),boot,stiefel,chelsea"      # (td) = Kleinkinder; boot/stiefel/chelsea = Stiefel (kaum Marge, falsche Sneaker-Kategorie)
+AUSSCHLUSS = tuple(x.strip().lower() for x in _env("AUSSCHLUSS", AUSSCHLUSS_STANDARD).split(",") if x.strip()) if _env("AUSSCHLUSS", AUSSCHLUSS_STANDARD) != "-" else ()
+KINDER_MIN_PREIS = D(_env("KINDER_MIN_PREIS", "100").replace(",", "."))   # Kinder-Modelle (GS/PS) mit Hood-Verkaufspreis darunter werden weggelassen; 0 = aus
 # Delta-Modus (nur AUTOMATIK): Die Hood-Datei enthaelt nur kuerzlich geaenderte Artikel, damit Hood weniger Artikel zaehlt/importiert.
 DELTA          = _env("DELTA", "0") == "1"
 DELTA_STUNDEN  = int(_env("DELTA_STUNDEN", "2"))   # so lange bleibt eine Aenderung in der Datei (Hood holt stuendlich -> Puffer)
@@ -255,7 +257,7 @@ def main():
     if not isinstance(feed, list): sys.exit("Unerwartete Antwort der API: " + str(feed)[:200])
 
     bild_fehlt_nr = set()    # lieferbar, aber Bild-Pruefung fehlgeschlagen -> NICHT loeschen (koennte nur kurzzeitig sein)
-    ohne_bild, zuordnung, zeilen, nr_neu, uebersprungen = [], {}, [], set(), {"andere Marke": 0, "kein Schuh": 0, "kein Preis/Bestand": 0, "ausgeschlossen": 0}
+    ohne_bild, zuordnung, zeilen, nr_neu, uebersprungen = [], {}, [], set(), {"andere Marke": 0, "kein Schuh": 0, "kein Preis/Bestand": 0, "ausgeschlossen": 0, "guenstige Kinder": 0}
     for p in feed:
         if str(p.get("brand_name", "")).strip().lower() not in MARKEN:
             uebersprungen["andere Marke"] += 1; continue
@@ -269,6 +271,10 @@ def main():
         except (KeyError, ValueError, ArithmeticError): ek, menge = None, 0
         if not ek or ek <= 0 or menge < 1:
             uebersprungen["kein Preis/Bestand"] += 1; continue
+        if KINDER_MIN_PREIS > 0 and any(k in _n for k in ("(gs)", "(ps)", "(td)")):
+            _z = ANGEHOBEN[0]; _vp = verkaufspreis(ek); ANGEHOBEN[0] = _z          # nur zum Pruefen, nicht mitzaehlen
+            if _vp < KINDER_MIN_PREIS:
+                uebersprungen["guenstige Kinder"] += 1; continue
         if MAX_MENGE: menge = min(menge, MAX_MENGE)
         g = groesse_text(eu)
         sku = str(p["sku"]).strip()
