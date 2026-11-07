@@ -16,7 +16,6 @@ DZ5485-201-42.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensne
 DZ5485-201-43 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-44 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-44.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
-DZ5485-201-45 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-45.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-46 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 AA3834-100-51.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://media.goldensneakers.net/images/AA3834-100/main/ | HTTP Error 403: Forbidden
@@ -48,7 +47,6 @@ U20109ZS-45 | New Balance 2010 Comme des Garçons White Grey | https://media.gol
 U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
 G90608VL-37 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-38 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
-G90608VL-38.5 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-39 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90608VL-40 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90602JM-37 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
