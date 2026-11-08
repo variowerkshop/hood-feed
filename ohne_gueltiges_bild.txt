@@ -1,6 +1,5 @@
 KH6730-38_2_3 | adidas Adistar Jellyfish Pharrell Williams Triple White | https://media.goldensneakers.net/images/KH6730/main/ | HTTP Error 403: Forbidden
 KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneakers.net/images/KI2861/main/ | HTTP Error 403: Forbidden
-KI2861-44_2_3 | adidas Superstar Pokémon Charizard | https://media.goldensneakers.net/images/KI2861/main/ | HTTP Error 403: Forbidden
 1203B005-100-40.5 | ASICS Gel-Kayano 14 Comme des Garçons SHIRT White | https://media.goldensneakers.net/images/1203B005-100/main/ | HTTP Error 403: Forbidden
 1203B005-100-42 | ASICS Gel-Kayano 14 Comme des Garçons SHIRT White | https://media.goldensneakers.net/images/1203B005-100/main/ | HTTP Error 403: Forbidden
 1203A383-701-41.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
