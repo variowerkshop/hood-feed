@@ -70,9 +70,11 @@ STAND_DATEI    = "hood_vollstand.csv"              # interner Gesamtstand (nicht
 AENDERUNG_DATEI = "aenderungen.json"
 MIN_GEWINN         = D(_env("MIN_GEWINN", MIN_GEWINN).replace(",", ".") if isinstance(_env("MIN_GEWINN", MIN_GEWINN), str) else str(MIN_GEWINN))
 
-ANGEBOTSDAUER = _env("ANGEBOTSDAUER", "")   # Hood verlangt neuerdings die Spalte; bei Shop-Artikeln (Format 7) ist ein Wert nicht noetig
+LAUFZEIT = _env("LAUFZEIT", "")   # Spalte "Laufzeit" in der Hood-Datei (bei Shop-Artikeln leer lassen)
+# Kopfzeile exakt wie Hoods eigene Export-/Beispieldatei (Stand 08.11.2026)
+HOOD_SPALTEN = "Format;Aktion;Hood Nr;Artikel Nr;EAN;ISBN;MPN;Hersteller;Sonderanfertigung;Titel;Untertitel;Beschreibung;Kurzbeschreibung;Größe;Farbrichtung;Farbrichtung;Farbrichtung;Material;Material;Material;Kategorie Nr;Kategorie Nr 2;Shop Kategorie;Shop Kategorie 2;Shop Kategorie 3;Menge;Mindestbestellmenge;Zustand;Mängelbeschreibung;verkürzte Gewährleistung;Laufzeit;Preis;Pfand;Einheit Grundpreis;Enthaltene Einheiten;EK;Eigenschaft;Ausfuehrungen;Eigenschaften;UVP;Streichpreis;Gewicht;Einheit;Startpreis;MwSt;Zahlungsarten;DHLPacket_nat;Versandkostenrabatt;Bild URL;Freigeschaltet;Preisvorschläge;wiedereinstellen;Fettschrift;Werbefrei;Bild Startseite;Startseite;Kategorie;Hintergrundfarbe;Galerie;XXL;Untertitel in Listen;Shop Homepage;ausverkauft;lagernd von;lagernd bis;nicht lagernd von;nicht lagernd bis;Artikel URL;Produktdatenblatt;Energielabel;Sicherheitsdatenblatt;Hersteller Name;Hersteller Adresse;Hersteller Addresszusatz;Hersteller PLZ;Hersteller Stadt;Hersteller Bundesland;Hersteller Land;Hersteller E-Mail;Hersteller Telefon;Akteur Name;Akteur Adresse;Akteur Addresszusatz;Akteur PLZ;Akteur Stadt;Akteur Bundesland;Akteur Land;Akteur E-Mail;Akteur Telefon;Sicherheitshinweise;Piktogramme".split(";")
 SPALTEN = ['Aktion','Format','Artikel Nr','Titel','Hersteller','Marke','Beschreibung','Zustand','Menge','Preis',
-           'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet','Angebotsdauer']
+           'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet']
 
 # Preise immer AUFRUNDEN auf einen "schoenen" Preis (Gewinn sinkt dadurch nie). Moeglich: "90" -> xx,90 | "99" -> xx,99 | "0" -> volle Euro | "5" -> naechster 5-Euro-Schritt minus 0,10 (z. B. 94,90) | "-" = nicht runden
 PREIS_RUNDUNG = _env("PREIS_RUNDUNG", "90")
@@ -223,18 +225,34 @@ def groesse_text(eu):
     eu = str(eu).strip()
     return eu[:-2] if eu.endswith(".0") else eu
 
-TRENNZEICHEN = _env("CSV_TRENNZEICHEN", "|")   # Hood erwartet den Vertikalstrich | (mit ";" kann man auf das alte Format zurueck)
+TRENNZEICHEN = _env("CSV_TRENNZEICHEN", ";")   # wie in Hoods eigener Beispieldatei: Semikolon (alternativ "|")
 
-def schreiben(pfad, rows, trenn=None):
+def hood_zeile(r):
+    """Interne Zeile -> Zeile im Hood-Format (alle Hood-Spalten, nicht genutzte leer)."""
+    o = {h: "" for h in HOOD_SPALTEN}
+    for k in ("Format", "Aktion", "Artikel Nr", "Hersteller", "Titel", "Beschreibung", "Zustand", "Menge", "Preis",
+              "Kategorie Nr", "MwSt", "DHLPacket_nat", "Bild URL", "Freigeschaltet"):
+        o[k] = r.get(k, "")
+    o["ausverkauft"] = r.get("Ausverkauft", "")
+    o["Laufzeit"] = LAUFZEIT if r.get("Aktion") != "Delete" else ""
+    return o
+
+def schreiben(pfad, rows, trenn=None, hood=False):
     trenn = trenn or TRENNZEICHEN
+    felder = SPALTEN
+    if hood:
+        rows = [hood_zeile(r) for r in rows]; felder = HOOD_SPALTEN
     if trenn != ";":   # kommt der Trenner im Text vor, wuerde er die Spalten verschieben
         rows = [{k: (v.replace(trenn, "/") if isinstance(v, str) else v) for k, v in r.items()} for r in rows]
     with open(pfad, "w", encoding="iso-8859-1", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=SPALTEN, delimiter=trenn, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(f, fieldnames=felder, delimiter=trenn, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(rows)
 
 def lesen(pfad):
     kopf = open(pfad, encoding="iso-8859-1").readline()
-    return list(csv.DictReader(open(pfad, encoding="iso-8859-1", newline=""), delimiter="|" if kopf.count("|") > kopf.count(";") else ";"))
+    zeilen = list(csv.DictReader(open(pfad, encoding="iso-8859-1", newline=""), delimiter="|" if kopf.count("|") > kopf.count(";") else ";"))
+    for r in zeilen:   # Hood-Datei -> interne Feldnamen
+        r.setdefault("Marke", r.get("Hersteller", "")); r.setdefault("Ausverkauft", r.get("ausverkauft", ""))
+    return zeilen
 
 def delta_auswahl(zeilen, jetzt=None):
     """Waehlt die Artikel, die in die Hood-Datei kommen: kuerzlich geaenderte (+ einmal taeglich alle)."""
@@ -322,7 +340,7 @@ def main():
                        'Hersteller': latin1(str(p.get('brand_name') or name.split()[0]).strip()), 'Marke': latin1(str(p.get('brand_name') or name.split()[0]).strip()),
                        'Beschreibung': beschreibung(name, g, sku, latin1(str(p.get('brand_name') or '').strip() or name.split()[0])), 'Zustand': '6', 'Menge': str(menge),
                        'Preis': str(verkaufspreis(ek)).replace(".", ","), 'Kategorie Nr': kategorie(name, sku), 'MwSt': MWST_SPALTE,
-                       'DHLPacket_nat': '0,00', 'Bild URL': "*".join(bilder), 'Ausverkauft': 'hide', 'Freigeschaltet': '1', 'Angebotsdauer': ANGEBOTSDAUER})
+                       'DHLPacket_nat': '0,00', 'Bild URL': "*".join(bilder), 'Ausverkauft': 'hide', 'Freigeschaltet': '1'})
     zeilen.sort(key=lambda r: r['Artikel Nr'])
     if not KATEGORIE_HERREN.strip().isdigit():
         sys.exit("Bitte oben im Skript KATEGORIE_HERREN (und DAMEN/KINDER) mit gueltigen Hood-Kategorienummern ausfuellen.")
@@ -366,9 +384,9 @@ def main():
     if AUTOMATIK and DELTA:
         senden = delta_auswahl(zeilen)          # muss vor dem Schreiben laufen (liest die alte Hood-Datei fuer die Umstellung)
         schreiben(STAND_DATEI, zeilen, ";")
-        schreiben(AUSGABE, senden + loesch_zeilen)
+        schreiben(AUSGABE, senden + loesch_zeilen, hood=True)
     else:
-        schreiben(AUSGABE, zeilen + loesch_zeilen)
+        schreiben(AUSGABE, zeilen + loesch_zeilen, hood=True)
 
     # Artikel, die beim letzten Lauf im Feed waren und jetzt fehlen (ausverkauft) -> Loesch-Datei
     alt = set(open(ZUSTAND_DATEI, encoding="utf-8").read().split()) if os.path.exists(ZUSTAND_DATEI) else set()
