@@ -34,8 +34,6 @@ IO2463-102-44 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.golde
 IO2463-102-44.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-45 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-45.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
-U19069L0-41.5 | New Balance 1906R Black | https://media.goldensneakers.net/images/U19069L0/main/ | HTTP Error 403: Forbidden
-U19069L0-43 | New Balance 1906R Black | https://media.goldensneakers.net/images/U19069L0/main/ | HTTP Error 403: Forbidden
 U201058P-40 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
 U201058P-42.5 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
 U20109ZS-40 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
@@ -115,10 +113,6 @@ IH8042-002-44.5 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/im
 IH8042-002-46 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 IO3370-002-40.5 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
 IO3370-002-41 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
-IO3370-002-42 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
-IO3370-002-42.5 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
-IO3370-002-44.5 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
-IO3370-002-45 | Nike P-6000 SE Off Noir | https://media.goldensneakers.net/images/IO3370-002/main/ | HTTP Error 403: Forbidden
 CD6404-033-40 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 CD6404-033-40.5 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 CD6404-033-41 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
