@@ -38,7 +38,6 @@ U19069L0-41.5 | New Balance 1906R Black | https://media.goldensneakers.net/image
 U19069L0-43 | New Balance 1906R Black | https://media.goldensneakers.net/images/U19069L0/main/ | HTTP Error 403: Forbidden
 U201058P-40 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
 U201058P-42.5 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
-U201058P-44 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
 U20109ZS-40 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U20109ZS-41.5 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U20109ZS-42.5 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
