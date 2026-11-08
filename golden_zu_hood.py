@@ -73,6 +73,19 @@ MIN_GEWINN         = D(_env("MIN_GEWINN", MIN_GEWINN).replace(",", ".") if isins
 SPALTEN = ['Aktion','Format','Artikel Nr','Titel','Hersteller','Marke','Beschreibung','Zustand','Menge','Preis',
            'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet']
 
+# Preise immer AUFRUNDEN auf einen "schoenen" Preis (Gewinn sinkt dadurch nie). Moeglich: "90" -> xx,90 | "99" -> xx,99 | "0" -> volle Euro | "5" -> naechster 5-Euro-Schritt minus 0,10 (z. B. 94,90) | "-" = nicht runden
+PREIS_RUNDUNG = _env("PREIS_RUNDUNG", "90")
+
+def schoen(preis):
+    if PREIS_RUNDUNG == "-": return preis
+    if PREIS_RUNDUNG == "0": return preis.quantize(D("1"), rounding="ROUND_CEILING")
+    if PREIS_RUNDUNG == "5":
+        schritt = (preis + D("0.10")) / 5
+        return schritt.quantize(D("1"), rounding="ROUND_CEILING") * 5 - D("0.10")
+    cent = D("0." + PREIS_RUNDUNG.zfill(2)[-2:])
+    p = preis.quantize(D("1"), rounding="ROUND_FLOOR") + cent
+    return p if p >= preis else p + 1
+
 ANGEHOBEN = [0]   # Zaehler: wie viele Preise wegen MIN_GEWINN erhoeht wurden
 
 def verkaufspreis(ek):
@@ -84,7 +97,7 @@ def verkaufspreis(ek):
         if minimum > preis:
             ANGEHOBEN[0] += 1
             preis = minimum
-    return preis
+    return schoen(preis)
 
 def latin1(s):
     """Text so umwandeln, dass er in ISO-8859-1 passt (Hood-Vorgabe)."""
@@ -209,9 +222,18 @@ def groesse_text(eu):
     eu = str(eu).strip()
     return eu[:-2] if eu.endswith(".0") else eu
 
-def schreiben(pfad, rows):
+TRENNZEICHEN = _env("CSV_TRENNZEICHEN", "|")   # Hood erwartet den Vertikalstrich | (mit ";" kann man auf das alte Format zurueck)
+
+def schreiben(pfad, rows, trenn=None):
+    trenn = trenn or TRENNZEICHEN
+    if trenn != ";":   # kommt der Trenner im Text vor, wuerde er die Spalten verschieben
+        rows = [{k: (v.replace(trenn, "/") if isinstance(v, str) else v) for k, v in r.items()} for r in rows]
     with open(pfad, "w", encoding="iso-8859-1", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=SPALTEN, delimiter=";", quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(rows)
+        w = csv.DictWriter(f, fieldnames=SPALTEN, delimiter=trenn, quoting=csv.QUOTE_ALL); w.writeheader(); w.writerows(rows)
+
+def lesen(pfad):
+    kopf = open(pfad, encoding="iso-8859-1").readline()
+    return list(csv.DictReader(open(pfad, encoding="iso-8859-1", newline=""), delimiter="|" if kopf.count("|") > kopf.count(";") else ";"))
 
 def delta_auswahl(zeilen, jetzt=None):
     """Waehlt die Artikel, die in die Hood-Datei kommen: kuerzlich geaenderte (+ einmal taeglich alle)."""
@@ -309,7 +331,7 @@ def main():
     if AUTOMATIK:
         # Hood holt sich nur Aenderungen: Artikel, die der Lieferant nicht mehr hat, bleiben mit Menge 0 in der Datei (statt geloescht zu werden).
         _quelle = STAND_DATEI if (DELTA and os.path.exists(STAND_DATEI)) else AUSGABE
-        alt = list(csv.DictReader(open(_quelle, encoding="iso-8859-1", newline=""), delimiter=";")) if os.path.exists(_quelle) else []
+        alt = lesen(_quelle) if os.path.exists(_quelle) else []
         alt = [r for r in alt if r.get("Aktion") != "Delete"]
         aktiv_alt = sum(1 for r in alt if r.get("Menge", "0") not in ("0", ""))
         if not zeilen or (aktiv_alt >= 20 and len(zeilen) < 0.5 * aktiv_alt):
@@ -342,7 +364,7 @@ def main():
         print(f"Automatik: {aktive} lieferbare Artikel, {behalten} nicht mehr lieferbare mit Menge 0 behalten, {len(loesch_zeilen)} Loeschungen in der Datei")
     if AUTOMATIK and DELTA:
         senden = delta_auswahl(zeilen)          # muss vor dem Schreiben laufen (liest die alte Hood-Datei fuer die Umstellung)
-        schreiben(STAND_DATEI, zeilen)
+        schreiben(STAND_DATEI, zeilen, ";")
         schreiben(AUSGABE, senden + loesch_zeilen)
     else:
         schreiben(AUSGABE, zeilen + loesch_zeilen)
@@ -352,7 +374,7 @@ def main():
     weg = [] if AUTOMATIK else sorted(alt - nr_neu)
     if weg:
         with open(ENTFERNT, "w", encoding="iso-8859-1", newline="") as f:
-            w = csv.DictWriter(f, fieldnames=['Aktion', 'Artikel Nr'], delimiter=";", quoting=csv.QUOTE_ALL)
+            w = csv.DictWriter(f, fieldnames=['Aktion', 'Artikel Nr'], delimiter=TRENNZEICHEN, quoting=csv.QUOTE_ALL)
             w.writeheader(); w.writerows({'Aktion': 'Delete', 'Artikel Nr': n} for n in weg)
     if not AUTOMATIK: open(ZUSTAND_DATEI, "w", encoding="utf-8").write("\n".join(sorted(nr_neu)))
     alte = json.load(open(ZUORDNUNG_DATEI, encoding="utf-8")) if os.path.exists(ZUORDNUNG_DATEI) else {}
