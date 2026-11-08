@@ -70,8 +70,9 @@ STAND_DATEI    = "hood_vollstand.csv"              # interner Gesamtstand (nicht
 AENDERUNG_DATEI = "aenderungen.json"
 MIN_GEWINN         = D(_env("MIN_GEWINN", MIN_GEWINN).replace(",", ".") if isinstance(_env("MIN_GEWINN", MIN_GEWINN), str) else str(MIN_GEWINN))
 
+ANGEBOTSDAUER = _env("ANGEBOTSDAUER", "")   # Hood verlangt neuerdings die Spalte; bei Shop-Artikeln (Format 7) ist ein Wert nicht noetig
 SPALTEN = ['Aktion','Format','Artikel Nr','Titel','Hersteller','Marke','Beschreibung','Zustand','Menge','Preis',
-           'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet']
+           'Kategorie Nr','MwSt','DHLPacket_nat','Bild URL','Ausverkauft','Freigeschaltet','Angebotsdauer']
 
 # Preise immer AUFRUNDEN auf einen "schoenen" Preis (Gewinn sinkt dadurch nie). Moeglich: "90" -> xx,90 | "99" -> xx,99 | "0" -> volle Euro | "5" -> naechster 5-Euro-Schritt minus 0,10 (z. B. 94,90) | "-" = nicht runden
 PREIS_RUNDUNG = _env("PREIS_RUNDUNG", "90")
@@ -321,7 +322,7 @@ def main():
                        'Hersteller': latin1(str(p.get('brand_name') or name.split()[0]).strip()), 'Marke': latin1(str(p.get('brand_name') or name.split()[0]).strip()),
                        'Beschreibung': beschreibung(name, g, sku, latin1(str(p.get('brand_name') or '').strip() or name.split()[0])), 'Zustand': '6', 'Menge': str(menge),
                        'Preis': str(verkaufspreis(ek)).replace(".", ","), 'Kategorie Nr': kategorie(name, sku), 'MwSt': MWST_SPALTE,
-                       'DHLPacket_nat': '0,00', 'Bild URL': "*".join(bilder), 'Ausverkauft': 'hide', 'Freigeschaltet': '1'})
+                       'DHLPacket_nat': '0,00', 'Bild URL': "*".join(bilder), 'Ausverkauft': 'hide', 'Freigeschaltet': '1', 'Angebotsdauer': ANGEBOTSDAUER})
     zeilen.sort(key=lambda r: r['Artikel Nr'])
     if not KATEGORIE_HERREN.strip().isdigit():
         sys.exit("Bitte oben im Skript KATEGORIE_HERREN (und DAMEN/KINDER) mit gueltigen Hood-Kategorienummern ausfuellen.")
