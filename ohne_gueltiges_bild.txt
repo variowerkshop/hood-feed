@@ -99,10 +99,6 @@ CD0609-049-38 | Nike Air Max Plus Black/Black/Volt Ice (GS) | https://media.gold
 IO9841-900-42.5 | Nike Book 2 Chevrolet Pretty Penny Sanddrift/Black/Sail/Metallic Silver | https://media.goldensneakers.net/images/IO9841-900/main/ | HTTP Error 403: Forbidden
 IQ8160-400-45 | Nike Cryoshot Mercurial Vapor R9 OG | https://media.goldensneakers.net/images/IQ8160-400/main/ | HTTP Error 403: Forbidden
 IB2051-400-46 | Nike Dunk Low QS CO.JP What The (2024) | https://media.goldensneakers.net/images/IB2051-400/main/ | HTTP Error 403: Forbidden
-HQ4309-601-38 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
-HQ4309-601-39 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
-HQ4309-601-40.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
-HQ4307-005-41 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
 IH8042-002-40.5 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 IH8042-002-41 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 IH8042-002-42 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
