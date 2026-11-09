@@ -50,9 +50,6 @@ U20109ZS-42.5 | New Balance 2010 Comme des Garçons White Grey | https://media.g
 U20109ZS-44 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U20109ZS-45 | New Balance 2010 Comme des Garçons White Grey | https://media.goldensneakers.net/images/U20109ZS/main/ | HTTP Error 403: Forbidden
 U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
-G90608VL-37 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
-G90608VL-39 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
-G90608VL-40 | New Balance 9060 Liliac (GS) | https://media.goldensneakers.net/images/G90608VL/main/ | HTTP Error 403: Forbidden
 G90602JM-37 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-37.5 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-38 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
