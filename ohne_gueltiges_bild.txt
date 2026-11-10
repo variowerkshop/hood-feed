@@ -69,7 +69,6 @@ U20003OZ-41.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://me
 U20003OZ-42.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-44 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-45.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
-IM5204-001-45 | Nike Air Foamposite Pro Army Camo (2026) | https://media.goldensneakers.net/images/IM5204-001/main/ | HTTP Error 403: Forbidden
 IM5204-001-46 | Nike Air Foamposite Pro Army Camo (2026) | https://media.goldensneakers.net/images/IM5204-001/main/ | HTTP Error 403: Forbidden
 IR0952-003-40.5 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-41 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
