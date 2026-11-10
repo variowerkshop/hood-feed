@@ -8,7 +8,6 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 1203A383-701-43.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 IQ5700-900-43 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 CT8013-103-47.5 | Jordan 12 Retro Bucks | https://media.goldensneakers.net/images/CT8013-103/main/ | HTTP Error 403: Forbidden
-IQ5708-001-44.5 | Jordan 14 Retro Mowalola Burnt Red | https://media.goldensneakers.net/images/IQ5708-001/main/ | HTTP Error 403: Forbidden
 DZ5485-201-40.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-41 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-42 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
