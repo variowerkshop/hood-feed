@@ -169,7 +169,6 @@ CD6404-033-45 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneaker
 CD6404-033-46 | Nike P-6000 Wolf Grey Blue Eclipse | https://media.goldensneakers.net/images/CD6404-033/main/ | HTTP Error 403: Forbidden
 IV5289-200-40.5 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple | https://media.goldensneakers.net/images/IV5289-200/main/ | HTTP Error 403: Forbidden
 IV5289-200-43 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple | https://media.goldensneakers.net/images/IV5289-200/main/ | HTTP Error 403: Forbidden
-IV5289-200-44 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple | https://media.goldensneakers.net/images/IV5289-200/main/ | HTTP Error 403: Forbidden
 HQ1625-201-40 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
 HQ1625-201-41 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
 HQ1625-201-44 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
