@@ -128,7 +128,6 @@ IM4613-002-42 | Nike Air Max 90 Phantom (Wmns) | https://media.goldensneakers.ne
 IM2211-001-41 | Nike Air Max 95 Premium Greedy (2026) | https://media.goldensneakers.net/images/IM2211-001/main/ | HTTP Error 403: Forbidden
 IM2211-001-42 | Nike Air Max 95 Premium Greedy (2026) | https://media.goldensneakers.net/images/IM2211-001/main/ | HTTP Error 403: Forbidden
 CD0609-049-38 | Nike Air Max Plus Black/Black/Volt Ice (GS) | https://media.goldensneakers.net/images/CD0609-049/main/ | HTTP Error 403: Forbidden
-IM5983-002-39 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IM5983-002-44 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IM5983-002-46 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IO9841-900-42.5 | Nike Book 2 Chevrolet Pretty Penny Sanddrift/Black/Sail/Metallic Silver | https://media.goldensneakers.net/images/IO9841-900/main/ | HTTP Error 403: Forbidden
