@@ -32,7 +32,6 @@ JA5911-320-40 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/ima
 JA5911-320-40.5 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 JA5911-320-43 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 JA5911-320-45 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-IV6048-001-46 | Jordan 4 Retro London | https://media.goldensneakers.net/images/IV6048-001/main/ | HTTP Error 403: Forbidden
 IO2463-102-41 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-42 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-42.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
