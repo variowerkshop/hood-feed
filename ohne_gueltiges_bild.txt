@@ -127,7 +127,6 @@ IQ5339-400-46 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.golden
 IQ5339-400-47 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
 IQ5339-400-48 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
 IQ5339-400-49.5 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
-IO6259-800-42.5 | Nike Kobe 8 Protro Shanghai Fireworks (2026) | https://media.goldensneakers.net/images/IO6259-800/main/ | HTTP Error 403: Forbidden
 HQ4307-400-41 | Nike Mind 001 Slide Blackened Blue Game Royal | https://media.goldensneakers.net/images/HQ4307-400/main/ | HTTP Error 403: Forbidden
 HQ4307-200-41 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
 HQ4307-200-46 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
