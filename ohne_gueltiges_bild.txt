@@ -120,6 +120,7 @@ HQ4307-400-41 | Nike Mind 001 Slide Blackened Blue Game Royal | https://media.go
 HQ4307-200-41 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
 HQ4307-200-46 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
 HQ4309-601-43 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
+HQ4307-005-41 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
 IH8042-002-42 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 IH8042-002-43 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 BV1021-023-40.5 | Nike P-6000 Metallic Silver Black White (Women's) | https://media.goldensneakers.net/images/BV1021-023/main/ | HTTP Error 403: Forbidden
