@@ -37,10 +37,8 @@ JA5911-320-45 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/ima
 IO2463-102-41 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-42 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-42.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
-IO2463-102-43 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-44 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-44.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
-IO2463-102-45 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-45.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 U201058P-40 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
 U201058P-42.5 | New Balance 2010 Comme des Garçons Grey Black | https://media.goldensneakers.net/images/U201058P/main/ | HTTP Error 403: Forbidden
