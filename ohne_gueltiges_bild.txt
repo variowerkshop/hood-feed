@@ -7,6 +7,7 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 1203A383-701-42.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 1203A383-701-43.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 CT8013-103-47.5 | Jordan 12 Retro Bucks | https://media.goldensneakers.net/images/CT8013-103/main/ | HTTP Error 403: Forbidden
+DZ5485-201-41 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-42 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-42.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-43 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
@@ -53,6 +54,7 @@ U20003OZ-44 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://medi
 U20003OZ-45.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 IM5204-001-46 | Nike Air Foamposite Pro Army Camo (2026) | https://media.goldensneakers.net/images/IM5204-001/main/ | HTTP Error 403: Forbidden
 IR0952-003-40.5 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
+IR0952-003-41 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-46 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 FV3654-111-40 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-40.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
