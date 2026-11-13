@@ -77,11 +77,7 @@ IV6042-236-41 | Nike Air Force 1 '07 Cream Metallic Silver Black (Women's) | htt
 IR0952-003-40.5 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-41 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
 IR0952-003-46 | Nike Air Force 1 '07 LV8 Tech White/Grey/Black | https://media.goldensneakers.net/images/IR0952-003/main/ | HTTP Error 403: Forbidden
-FV3654-111-36 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
-FV3654-111-36.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-37.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
-FV3654-111-38.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
-FV3654-111-39 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-40 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FV3654-111-40.5 | Nike Air Force 1 '07 LX CN Sail Gold Mini Swooshes (Women's) | https://media.goldensneakers.net/images/FV3654-111/main/ | HTTP Error 403: Forbidden
 FJ4146-137-40 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.net/images/FJ4146-137/main/ | HTTP Error 403: Forbidden
