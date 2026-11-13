@@ -174,7 +174,6 @@ HQ2593-607-42 | Nike Pegasus Premium pink smoke/light magenta/pink smoke (Women'
 HQ2593-607-42.5 | Nike Pegasus Premium pink smoke/light magenta/pink smoke (Women's) | https://media.goldensneakers.net/images/HQ2593-607/main/ | HTTP Error 403: Forbidden
 HQ2593-607-43 | Nike Pegasus Premium pink smoke/light magenta/pink smoke (Women's) | https://media.goldensneakers.net/images/HQ2593-607/main/ | HTTP Error 403: Forbidden
 IV5289-200-40.5 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple | https://media.goldensneakers.net/images/IV5289-200/main/ | HTTP Error 403: Forbidden
-IV5289-200-42.5 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple | https://media.goldensneakers.net/images/IV5289-200/main/ | HTTP Error 403: Forbidden
 HQ1625-201-44 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
 IQ0028-200-41 | Nike Vomero Premium Flat Stout (Women's) | https://media.goldensneakers.net/images/IQ0028-200/main/ | HTTP Error 403: Forbidden
 IQ3365-002-44 | Nike Zoom Mercurial Vapor 16 Elite FG Patta Waves Noise Aqua | https://media.goldensneakers.net/images/IQ3365-002/main/ | HTTP Error 403: Forbidden
