@@ -6828,5 +6828,95 @@
   "sku": "JQ8903",
   "size_us": "8",
   "size_id": 10241
+ },
+ "MR530SG-38": {
+  "sku": "MR530SG",
+  "size_us": "5.5",
+  "size_id": 3215
+ },
+ "MR530SG-39.5": {
+  "sku": "MR530SG",
+  "size_us": "6.5",
+  "size_id": 3216
+ },
+ "MR530SG-40": {
+  "sku": "MR530SG",
+  "size_us": "7",
+  "size_id": 3217
+ },
+ "MR530SG-45": {
+  "sku": "MR530SG",
+  "size_us": "11",
+  "size_id": 12103
+ },
+ "GR740WN-37": {
+  "sku": "GR740WN",
+  "size_us": "4.5",
+  "size_id": 6493
+ },
+ "GR740WN-38": {
+  "sku": "GR740WN",
+  "size_us": "5.5",
+  "size_id": 6492
+ },
+ "GR740WN-38.5": {
+  "sku": "GR740WN",
+  "size_us": "6",
+  "size_id": 6491
+ },
+ "GR740WN-39": {
+  "sku": "GR740WN",
+  "size_us": "6.5",
+  "size_id": 6490
+ },
+ "GR740WN-40": {
+  "sku": "GR740WN",
+  "size_us": "7",
+  "size_id": 22577
+ },
+ "U90603BQ-40.5": {
+  "sku": "U90603BQ",
+  "size_us": "7.5",
+  "size_id": 20390
+ },
+ "U90603BQ-44": {
+  "sku": "U90603BQ",
+  "size_us": "10",
+  "size_id": 20391
+ },
+ "U9060WHT-42": {
+  "sku": "U9060WHT",
+  "size_us": "8.5",
+  "size_id": 2761
+ },
+ "U9060WHT-44": {
+  "sku": "U9060WHT",
+  "size_us": "10",
+  "size_id": 2756
+ },
+ "U9060WHT-44.5": {
+  "sku": "U9060WHT",
+  "size_us": "10.5",
+  "size_id": 2757
+ },
+ "U9060WHT-45": {
+  "sku": "U9060WHT",
+  "size_us": "11",
+  "size_id": 2758
+ },
+ "U9060WHT-45.5": {
+  "sku": "U9060WHT",
+  "size_us": "11.5",
+  "size_id": 2759
+ },
+ "U9060WHT-46.5": {
+  "sku": "U9060WHT",
+  "size_us": "12",
+  "size_id": 2760
+ },
+ "U9060NRJ-37": {
+  "sku": "U9060NRJ",
+  "size_us": "4.5",
+  "size_id": 1125
  }
 }
