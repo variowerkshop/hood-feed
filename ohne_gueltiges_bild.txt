@@ -28,7 +28,6 @@ AA3834-100-51.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://medi
 AA3834-100-52.5 | Jordan 1 Retro High Virgil Abloh Archive Alaska | https://media.goldensneakers.net/images/AA3834-100/main/ | HTTP Error 403: Forbidden
 CK9246-200-40.5 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 CK9246-200-41 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
-CK9246-200-44 | Jordan 3 Retro Fireside (Women's) | https://media.goldensneakers.net/images/CK9246-200/main/ | HTTP Error 403: Forbidden
 IW2872-700-45.5 | Jordan 4 Retro J Balvin Lemonade | https://media.goldensneakers.net/images/IW2872-700/main/ | HTTP Error 403: Forbidden
 JA5911-320-40 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 JA5911-320-40.5 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
