@@ -105,7 +105,6 @@ FJ4146-137-44 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.
 FJ4146-137-44.5 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.net/images/FJ4146-137/main/ | HTTP Error 403: Forbidden
 FJ4146-137-45 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.net/images/FJ4146-137/main/ | HTTP Error 403: Forbidden
 FJ4146-137-46 | Nike Air Force 1 '07 White/Black | https://media.goldensneakers.net/images/FJ4146-137/main/ | HTTP Error 403: Forbidden
-IQ0134-101-36.5 | Nike Air Force 1 '07 White/Silver (Women's) | https://media.goldensneakers.net/images/IQ0134-101/main/ | HTTP Error 403: Forbidden
 IQ0134-101-37.5 | Nike Air Force 1 '07 White/Silver (Women's) | https://media.goldensneakers.net/images/IQ0134-101/main/ | HTTP Error 403: Forbidden
 IQ0134-101-38 | Nike Air Force 1 '07 White/Silver (Women's) | https://media.goldensneakers.net/images/IQ0134-101/main/ | HTTP Error 403: Forbidden
 IQ0134-101-38.5 | Nike Air Force 1 '07 White/Silver (Women's) | https://media.goldensneakers.net/images/IQ0134-101/main/ | HTTP Error 403: Forbidden
