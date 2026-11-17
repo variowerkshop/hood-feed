@@ -66,6 +66,12 @@ U530COC-39.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.ne
 U530COC-40 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530COC-40.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530COC-41.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-42 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-42.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-43 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-44 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-44.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
+U530COC-45 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
 U90609XS-40 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
 U90609XS-40.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
@@ -77,6 +83,12 @@ G90602JM-37.5 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.
 G90602JM-38.5 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-39 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-40 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
+U906049S-36 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
+U906049S-37 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
+U906049S-38 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
+U906049S-38.5 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
+U906049S-39.5 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
+U906049S-40 | New Balance 9060R White/Pink/Silver | https://media.goldensneakers.net/images/U906049S/main/ | HTTP Error 403: Forbidden
 U20003OZ-37 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-38 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-38.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
