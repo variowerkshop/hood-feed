@@ -130,6 +130,8 @@ IV5758-043-40 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://med
 IV5758-043-40.5 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
 IV5758-043-41 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
 IV5758-043-42 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
+IV5758-043-42.5 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
+IV5758-043-44 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
 IV5758-043-44.5 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
 IV5758-043-45 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
 IV5758-043-45.5 | Nike Air Max 90 Drift Pure Platinum Bright Crimson | https://media.goldensneakers.net/images/IV5758-043/main/ | HTTP Error 403: Forbidden
