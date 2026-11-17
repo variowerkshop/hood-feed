@@ -8,7 +8,6 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 1203A383-701-43.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 CT8013-103-47.5 | Jordan 12 Retro Bucks | https://media.goldensneakers.net/images/CT8013-103/main/ | HTTP Error 403: Forbidden
 DZ5485-201-41 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
-DZ5485-201-42 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-42.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-43 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-45.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
@@ -68,9 +67,13 @@ U530COC-40 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/
 U530COC-40.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530COC-41.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
+U90609XS-40 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
+U90609XS-40.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
+U90609XS-41.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
+U90609XS-42 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
+U90609XS-44.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
 G90602JM-37 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-37.5 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
-G90602JM-38 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-38.5 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-39 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
 G90602JM-40 | New Balance 9060 Navy/Linen (GS) | https://media.goldensneakers.net/images/G90602JM/main/ | HTTP Error 403: Forbidden
