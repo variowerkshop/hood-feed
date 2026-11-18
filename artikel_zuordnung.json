@@ -7268,5 +7268,70 @@
   "sku": "IF6490",
   "size_us": "9",
   "size_id": 1090
+ },
+ "MR530EMA-36": {
+  "sku": "MR530EMA",
+  "size_us": "4",
+  "size_id": 9780
+ },
+ "MR530EMA-37": {
+  "sku": "MR530EMA",
+  "size_us": "4.5",
+  "size_id": 9781
+ },
+ "MR530EMA-37.5": {
+  "sku": "MR530EMA",
+  "size_us": "5",
+  "size_id": 9782
+ },
+ "MR530EMA-38": {
+  "sku": "MR530EMA",
+  "size_us": "5.5",
+  "size_id": 3214
+ },
+ "MR530EMA-38.5": {
+  "sku": "MR530EMA",
+  "size_us": "6",
+  "size_id": 9783
+ },
+ "MR530EMA-39.5": {
+  "sku": "MR530EMA",
+  "size_us": "6.5",
+  "size_id": 9784
+ },
+ "U9060BLK-36": {
+  "sku": "U9060BLK",
+  "size_us": "4",
+  "size_id": 3671
+ },
+ "U9060BLK-37.5": {
+  "sku": "U9060BLK",
+  "size_us": "5",
+  "size_id": 3673
+ },
+ "U9060BLK-38": {
+  "sku": "U9060BLK",
+  "size_us": "5.5",
+  "size_id": 359
+ },
+ "U9060BLK-38.5": {
+  "sku": "U9060BLK",
+  "size_us": "6",
+  "size_id": 3672
+ },
+ "U9060BLK-39.5": {
+  "sku": "U9060BLK",
+  "size_us": "6.5",
+  "size_id": 2089
+ },
+ "U9060BLK-44.5": {
+  "sku": "U9060BLK",
+  "size_us": "10.5",
+  "size_id": 688
+ },
+ "U9060BLK-45": {
+  "sku": "U9060BLK",
+  "size_us": "11",
+  "size_id": 689
  }
 }
