@@ -167,7 +167,6 @@ U20003OZ-41.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://me
 U20003OZ-42.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-44 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
 U20003OZ-45.5 | New Balance Abzorb 2000 Silver Metallic-Faded Black | https://media.goldensneakers.net/images/U20003OZ/main/ | HTTP Error 403: Forbidden
-IQ5365-600-46 | Nike Air Bakin High SP Varsity Red/ White-Varsity Maize-Black | https://media.goldensneakers.net/images/IQ5365-600/main/ | HTTP Error 403: Forbidden
 IV6042-236-36 | Nike Air Force 1 '07 Cream Metallic Silver Black (Women's) | https://media.goldensneakers.net/images/IV6042-236/main/ | HTTP Error 403: Forbidden
 IV6042-236-36.5 | Nike Air Force 1 '07 Cream Metallic Silver Black (Women's) | https://media.goldensneakers.net/images/IV6042-236/main/ | HTTP Error 403: Forbidden
 IV6042-236-37.5 | Nike Air Force 1 '07 Cream Metallic Silver Black (Women's) | https://media.goldensneakers.net/images/IV6042-236/main/ | HTTP Error 403: Forbidden
@@ -230,7 +229,6 @@ IM5983-002-45 | Nike Air Max Plus Cordura Triple Black | https://media.goldensne
 IM5983-002-46 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IQ8160-400-45 | Nike Cryoshot Mercurial Vapor R9 OG | https://media.goldensneakers.net/images/IQ8160-400/main/ | HTTP Error 403: Forbidden
 IQ1118-220-38.5 | Nike Dunk Low Pegasus Pack Linen Phantom | https://media.goldensneakers.net/images/IQ1118-220/main/ | HTTP Error 403: Forbidden
-IQ5339-400-42 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
 IQ5339-400-45 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
 IO8233-001-41 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensneakers.net/images/IO8233-001/main/ | HTTP Error 403: Forbidden
 IO8233-001-42 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensneakers.net/images/IO8233-001/main/ | HTTP Error 403: Forbidden
@@ -240,8 +238,6 @@ IO8233-001-44 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensne
 IO8233-001-44.5 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensneakers.net/images/IO8233-001/main/ | HTTP Error 403: Forbidden
 IO8233-001-45 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensneakers.net/images/IO8233-001/main/ | HTTP Error 403: Forbidden
 IO8233-001-45.5 | Nike Kobe AD Protro Ruthless Precision | https://media.goldensneakers.net/images/IO8233-001/main/ | HTTP Error 403: Forbidden
-IO8204-400-45.5 | NIKE LeBron XXIV Stars | https://media.goldensneakers.net/images/IO8204-400/main/ | HTTP Error 403: Forbidden
-HQ4307-200-41 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
 HQ4307-200-46 | Nike Mind 001 Slide Hemp/Pale Ivory/Sanddrift | https://media.goldensneakers.net/images/HQ4307-200/main/ | HTTP Error 403: Forbidden
 HQ4309-601-38 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4309-601-39 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
