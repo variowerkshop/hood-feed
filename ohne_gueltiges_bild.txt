@@ -100,7 +100,6 @@ HV0823-001-38.5 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.gol
 HV0823-001-39 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
 HV0823-001-40 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
 HV0823-001-40.5 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
-HV0823-001-41 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
 HQ7978-001-44.5 | Jordan 5 Retro Halloween | https://media.goldensneakers.net/images/HQ7978-001/main/ | HTTP Error 403: Forbidden
 U200037K-36 | New Balance 2000 ABZORB Reflection Grey Matter Slate Grey | https://media.goldensneakers.net/images/U200037K/main/ | HTTP Error 403: Forbidden
 U200037K-37 | New Balance 2000 ABZORB Reflection Grey Matter Slate Grey | https://media.goldensneakers.net/images/U200037K/main/ | HTTP Error 403: Forbidden
@@ -250,7 +249,6 @@ CD0609-049-38 | Nike Air Max Plus Black/Black/Volt Ice (GS) | https://media.gold
 IM5983-002-39 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IM5983-002-40 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IM5983-002-44 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
-IM5983-002-45 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IM5983-002-46 | Nike Air Max Plus Cordura Triple Black | https://media.goldensneakers.net/images/IM5983-002/main/ | HTTP Error 403: Forbidden
 IQ1118-220-38.5 | Nike Dunk Low Pegasus Pack Linen Phantom | https://media.goldensneakers.net/images/IQ1118-220/main/ | HTTP Error 403: Forbidden
 IQ5339-400-45 | Nike Kobe 10 Low Protro 5AM Flight (2026) | https://media.goldensneakers.net/images/IQ5339-400/main/ | HTTP Error 403: Forbidden
