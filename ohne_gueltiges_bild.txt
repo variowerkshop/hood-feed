@@ -45,7 +45,6 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 1203A383-701-42 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 1203A383-701-42.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 1203A383-701-43.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
-IQ5700-900-40 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 IQ5700-900-40.5 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 IQ5700-900-41 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 IQ5700-900-42 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
