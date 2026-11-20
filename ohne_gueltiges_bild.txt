@@ -41,8 +41,6 @@ IQ5700-900-41 | Jordan 11 Retro Green Screen Monstars | https://media.goldensnea
 IQ5700-900-42 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 IQ5700-900-42.5 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 IQ5700-900-43 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
-IQ5700-900-44 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
-IQ5700-900-45 | Jordan 11 Retro Green Screen Monstars | https://media.goldensneakers.net/images/IQ5700-900/main/ | HTTP Error 403: Forbidden
 CT8013-103-47.5 | Jordan 12 Retro Bucks | https://media.goldensneakers.net/images/CT8013-103/main/ | HTTP Error 403: Forbidden
 DZ5485-201-41 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
 DZ5485-201-42.5 | Jordan 1 Retro High OG Love The Game | https://media.goldensneakers.net/images/DZ5485-201/main/ | HTTP Error 403: Forbidden
@@ -71,11 +69,6 @@ JA5911-320-42 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/ima
 JA5911-320-42.5 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 JA5911-320-43 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 JA5911-320-44 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-JA5911-320-44.5 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-JA5911-320-45 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-JA5911-320-45.5 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-JA5911-320-46 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
-JA5911-320-47 | Jordan 4 Retro Light Army | https://media.goldensneakers.net/images/JA5911-320/main/ | HTTP Error 403: Forbidden
 IO2463-102-42.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-44 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
 IO2463-102-44.5 | Jordan 4 Retro Rare Air Tour Yellow (2026) | https://media.goldensneakers.net/images/IO2463-102/main/ | HTTP Error 403: Forbidden
@@ -89,7 +82,6 @@ HV0823-001-38.5 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.gol
 HV0823-001-39 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
 HV0823-001-40 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
 HV0823-001-40.5 | Jordan 4 Retro Rust Pink Thunder (Women's) | https://media.goldensneakers.net/images/HV0823-001/main/ | HTTP Error 403: Forbidden
-HQ7978-001-44.5 | Jordan 5 Retro Halloween | https://media.goldensneakers.net/images/HQ7978-001/main/ | HTTP Error 403: Forbidden
 U200037K-36 | New Balance 2000 ABZORB Reflection Grey Matter Slate Grey | https://media.goldensneakers.net/images/U200037K/main/ | HTTP Error 403: Forbidden
 U200037K-37 | New Balance 2000 ABZORB Reflection Grey Matter Slate Grey | https://media.goldensneakers.net/images/U200037K/main/ | HTTP Error 403: Forbidden
 U200037K-37.5 | New Balance 2000 ABZORB Reflection Grey Matter Slate Grey | https://media.goldensneakers.net/images/U200037K/main/ | HTTP Error 403: Forbidden
@@ -143,7 +135,6 @@ U530COC-43 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/
 U530COC-44 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530COC-44.5 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
 U530COC-45 | New Balance 530 Sea Salt Magnet | https://media.goldensneakers.net/images/U530COC/main/ | HTTP Error 403: Forbidden
-U530SMS-39.5 | New Balance 530 Silver/Green | https://media.goldensneakers.net/images/U530SMS/main/ | HTTP Error 403: Forbidden
 U90609XS-40 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
 U90609XS-40.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
 U90609XS-41.5 | New Balance 9060 Grey Slate Grey | https://media.goldensneakers.net/images/U90609XS/main/ | HTTP Error 403: Forbidden
