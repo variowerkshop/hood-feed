@@ -220,7 +220,6 @@ FJ4146-117-42 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneak
 FJ4146-117-44 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneakers.net/images/FJ4146-117/main/ | HTTP Error 403: Forbidden
 FJ4146-117-44.5 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneakers.net/images/FJ4146-117/main/ | HTTP Error 403: Forbidden
 FJ4146-117-45 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneakers.net/images/FJ4146-117/main/ | HTTP Error 403: Forbidden
-FJ4146-117-45.5 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneakers.net/images/FJ4146-117/main/ | HTTP Error 403: Forbidden
 FJ4146-117-46 | Nike Air Force 1 Low '07 White Ghost | https://media.goldensneakers.net/images/FJ4146-117/main/ | HTTP Error 403: Forbidden
 IQ7634-006-40 | Nike Air Liquid Max Black Chrome Monarch Purple | https://media.goldensneakers.net/images/IQ7634-006/main/ | HTTP Error 403: Forbidden
 IQ7634-006-40.5 | Nike Air Liquid Max Black Chrome Monarch Purple | https://media.goldensneakers.net/images/IQ7634-006/main/ | HTTP Error 403: Forbidden
@@ -257,7 +256,6 @@ IO1753-003-40.5 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.n
 IO1753-003-41 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
 IO1753-003-42 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
 IO1753-003-42.5 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
-IO1753-003-43 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
 IO1753-003-44 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
 IO1753-003-44.5 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
 IO1753-003-45 | Nike Air Max Joga Bonito Neon | https://media.goldensneakers.net/images/IO1753-003/main/ | HTTP Error 403: Forbidden
@@ -324,8 +322,6 @@ IV5289-200-46 | Nike SB Air Force 1 Low City Pack Light Chocolate Court Purple |
 IQ0431-300-40 | Nike SB Dunk Low Pro Black Spruce and Metallic Gold | https://media.goldensneakers.net/images/IQ0431-300/main/ | HTTP Error 403: Forbidden
 IQ0431-300-40.5 | Nike SB Dunk Low Pro Black Spruce and Metallic Gold | https://media.goldensneakers.net/images/IQ0431-300/main/ | HTTP Error 403: Forbidden
 IQ0431-300-41 | Nike SB Dunk Low Pro Black Spruce and Metallic Gold | https://media.goldensneakers.net/images/IQ0431-300/main/ | HTTP Error 403: Forbidden
-IQ0431-300-42 | Nike SB Dunk Low Pro Black Spruce and Metallic Gold | https://media.goldensneakers.net/images/IQ0431-300/main/ | HTTP Error 403: Forbidden
-IQ0431-300-42.5 | Nike SB Dunk Low Pro Black Spruce and Metallic Gold | https://media.goldensneakers.net/images/IQ0431-300/main/ | HTTP Error 403: Forbidden
 HQ1625-201-37.5 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
 HQ1625-201-39 | Nike SB Dunk Low Pro Filbert Light Chocolate | https://media.goldensneakers.net/images/HQ1625-201/main/ | HTTP Error 403: Forbidden
 IQ3365-002-44 | Nike Zoom Mercurial Vapor 16 Elite FG Patta Waves Noise Aqua | https://media.goldensneakers.net/images/IQ3365-002/main/ | HTTP Error 403: Forbidden
