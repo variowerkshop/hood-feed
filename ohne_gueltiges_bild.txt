@@ -32,15 +32,6 @@ KI2861-43_1_3 | adidas Superstar Pokémon Charizard | https://media.goldensneake
 1203A739-022-44.5 | Asics GEL-NYC Graphite Grey/Lime Green | https://media.goldensneakers.net/images/1203A739-022/main/ | HTTP Error 403: Forbidden
 1203A739-022-45 | Asics GEL-NYC Graphite Grey/Lime Green | https://media.goldensneakers.net/images/1203A739-022/main/ | HTTP Error 403: Forbidden
 1203A739-022-46 | Asics GEL-NYC Graphite Grey/Lime Green | https://media.goldensneakers.net/images/1203A739-022/main/ | HTTP Error 403: Forbidden
-1203A739-023-40.5 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-41.5 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-42 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-42.5 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-43.5 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-44 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-44.5 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-45 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
-1203A739-023-46 | Asics Gel-NYC Gravel/Raw Indigo | https://media.goldensneakers.net/images/1203A739-023/main/ | HTTP Error 403: Forbidden
 1203A383-701-41.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 1203A383-701-42 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
 1203A383-701-42.5 | ASICS Gel-NYC Pink Glo Concrete | https://media.goldensneakers.net/images/1203A383-701/main/ | HTTP Error 403: Forbidden
