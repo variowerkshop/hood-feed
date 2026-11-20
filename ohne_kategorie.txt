@@ -1,5 +1,6 @@
 Produkttyp | Anzahl Artikel   -> Hood-Kategorienummer in kategorien.txt eintragen
 Set | 9
+Wok | 2
 Gegenstück | 1
 Abstreifer | 1
 Dreistern | 1
