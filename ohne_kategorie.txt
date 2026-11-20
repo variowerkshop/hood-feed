@@ -1,0 +1,2 @@
+Produkttyp | Anzahl Artikel   -> Hood-Kategorienummer in kategorien.txt eintragen
+Set | 9
