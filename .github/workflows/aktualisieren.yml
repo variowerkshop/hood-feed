@@ -3,7 +3,7 @@ name: Hood-Datei aktualisieren
 on:
   schedule:
     - cron: "23 * * * *"      # jede Stunde, zur Minute 23
-  workflow_dispatch:             # zusaetzlich per Knopf "Run workflow"
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -25,18 +25,15 @@ jobs:
 
       - name: Hood-CSV erzeugen
         env:
-          AUTOMATIK: "1"
-          GS_TOKEN: ${{ secrets.GS_TOKEN }}
-          KATEGORIE_HERREN: ${{ vars.KATEGORIE_HERREN }}
-          KATEGORIE_DAMEN: ${{ vars.KATEGORIE_DAMEN }}
-          KATEGORIE_JUNGEN: ${{ vars.KATEGORIE_JUNGEN }}
-          KATEGORIE_MAEDCHEN: ${{ vars.KATEGORIE_MAEDCHEN }}
-          MAX_MENGE: ${{ vars.MAX_MENGE }}
+          CLP_URL: ${{ secrets.CLP_URL }}
+          CLP_KATEGORIEN: ${{ vars.CLP_KATEGORIEN }}
+          RABATT: ${{ vars.RABATT }}
+          AUFSCHLAG: ${{ vars.AUFSCHLAG }}
           MIN_GEWINN: ${{ vars.MIN_GEWINN }}
-          DELTA: ${{ vars.DELTA }}
-          DELTA_STUNDEN: ${{ vars.DELTA_STUNDEN }}
-          ANGEBOTSDAUER: ${{ vars.ANGEBOTSDAUER }}
-        run: python golden_zu_hood.py
+          MAX_MENGE: ${{ vars.MAX_MENGE }}
+          MIN_BESTAND: ${{ vars.MIN_BESTAND }}
+          SNEAKER_LOESCHEN: ${{ vars.SNEAKER_LOESCHEN }}
+        run: python clp_zu_hood.py
 
       - name: Ergebnis speichern
         run: |
