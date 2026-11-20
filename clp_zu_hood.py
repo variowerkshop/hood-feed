@@ -87,7 +87,7 @@ def hood_zeile(c, kat):
     o.update({"Format": "7", "Aktion": "Synchronize", "Artikel Nr": nr, "EAN": c.get("ean", ""), "MPN": c["clp_item_no"],
         "Hersteller": "CLP Trading GmbH", "Sonderanfertigung": "0", "Titel": titel,
         "Untertitel": (f"Farbe: {farbe} | " if farbe else "") + "Schneller Versand aus Deutschland",
-        "Beschreibung": c["description_de"], "Kategorie Nr": kat, "Kategorie Nr 2": "0",
+        "Beschreibung": c["description_de"].strip() or f"<p>{titel}</p><p>Neuware, schneller Versand aus Deutschland.</p>", "Kategorie Nr": kat, "Kategorie Nr 2": "0",
         "Shop Kategorie": "0", "Shop Kategorie 2": "0", "Shop Kategorie 3": "0",
         "Menge": str(menge), "Zustand": "neu", "Preis": fmt(verkaufspreis(num(c["price_with_VAT_without_discount"]), num(c["delivery_costs_germany"]))),
         "MwSt": "0", "Zahlungsarten": "22", "DHLPacket_nat": "0,00", "Bild URL": "*".join(b for b in bilder if b),
@@ -110,7 +110,7 @@ def main():
     jetzt = datetime.now(timezone.utc)
     regeln = kategorien_laden()
     katalog = katalog_laden()
-    neu, ohne, uebersprungen = {}, {}, {"Lager": 0, "Spedition": 0, "Kategorie": 0}
+    neu, ohne, uebersprungen = {}, {}, {"Lager": 0, "Spedition": 0, "Kategorie": 0, "Bild fehlt": 0}
     for c in katalog:
         name = c["product_name"]
         kat = next((n for k, n in regeln if k in name.lower()), None)
@@ -118,6 +118,7 @@ def main():
         if not gewuenscht: continue
         if int(c["quantity"] or 0) < MIN_BESTAND: uebersprungen["Lager"] += 1; continue
         if num(c["delivery_costs_germany"]) > MAX_VERSAND or not c["delivery_costs_germany"]: uebersprungen["Spedition"] += 1; continue
+        if not (c.get("picture_url_1") or "").strip(): uebersprungen["Bild fehlt"] += 1; continue   # Hood verlangt mindestens 1 Bild
         if kat is None:
             typ = re.sub(r"^(V2 |\d+er )", "", name).split(" ")[0]
             ohne[typ] = ohne.get(typ, 0) + 1; uebersprungen["Kategorie"] += 1; continue
