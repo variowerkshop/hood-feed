@@ -26,6 +26,7 @@ jobs:
       - name: Hood-CSV erzeugen
         env:
           CLP_URL: ${{ secrets.CLP_URL }}
+          CLP_BESTAND_URL: ${{ secrets.CLP_BESTAND_URL }}
           CLP_KATEGORIEN: ${{ vars.CLP_KATEGORIEN }}
           RABATT: ${{ vars.RABATT }}
           AUFSCHLAG: ${{ vars.AUFSCHLAG }}
