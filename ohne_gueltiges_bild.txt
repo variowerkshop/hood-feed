@@ -247,7 +247,6 @@ HQ4309-601-40.5 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.golde
 HQ4309-601-43 | Nike Mind 001 Slide Pink Smoke (Women's) | https://media.goldensneakers.net/images/HQ4309-601/main/ | HTTP Error 403: Forbidden
 HQ4309-301-40.5 | Nike Mind 001 Slide Tarp Green (Women's) | https://media.goldensneakers.net/images/HQ4309-301/main/ | HTTP Error 403: Forbidden
 HQ4309-301-42 | Nike Mind 001 Slide Tarp Green (Women's) | https://media.goldensneakers.net/images/HQ4309-301/main/ | HTTP Error 403: Forbidden
-HQ4309-301-44.5 | Nike Mind 001 Slide Tarp Green (Women's) | https://media.goldensneakers.net/images/HQ4309-301/main/ | HTTP Error 403: Forbidden
 HQ4307-005-49.5 | Nike Mind 001 Slide Triple Black | https://media.goldensneakers.net/images/HQ4307-005/main/ | HTTP Error 403: Forbidden
 IH8042-002-42 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
 IH8042-002-43 | Nike P-6000 Light Pumice | https://media.goldensneakers.net/images/IH8042-002/main/ | HTTP Error 403: Forbidden
