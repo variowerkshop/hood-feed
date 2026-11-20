@@ -10,6 +10,8 @@ def _env(name, standard):
     return v.strip() if v and v.strip() else standard
 
 CLP_URL        = _env("CLP_URL", "")                     # Adresse der CLP-Reseller-CSV (als Secret speichern!)
+CLP_BESTAND_URL   = _env("CLP_BESTAND_URL", "")             # optional: Bestandsdatei (a_nr;a_stock), mehrmals taeglich aktuell
+CLP_BESTAND_DATEI = _env("CLP_BESTAND_DATEI", "")
 CLP_DATEI      = _env("CLP_DATEI", "")                   # alternativ: lokale Datei (zum Testen)
 KATEGORIEN     = [x.strip().lower() for x in _env("CLP_KATEGORIEN", "Sonstiges").split(",") if x.strip()]
 RABATT         = D(_env("RABATT", "0").replace(",", "."))        # Haendlerrabatt in % auf den Datei-Preis
@@ -77,6 +79,19 @@ def katalog_laden():
         sys.exit(f"SICHERHEITSSTOPP: CLP-Datei sieht falsch aus ({len(zeilen)} Zeilen). Hood-Datei bleibt unveraendert.")
     return zeilen
 
+def bestand_laden():
+    """Aktuelle Mengen {clp_item_no: Menge}. Fehler hier stoppen den Lauf nicht (dann gilt der Bestand der Produktdatei)."""
+    try:
+        if CLP_BESTAND_DATEI: roh = open(CLP_BESTAND_DATEI, "rb").read()
+        elif CLP_BESTAND_URL: roh = urllib.request.urlopen(urllib.request.Request(CLP_BESTAND_URL, headers={"User-Agent": "hood-feed"}), timeout=120).read()
+        else: return {}
+        zeilen = list(csv.DictReader(io.StringIO(roh.decode("iso-8859-1"), newline=""), delimiter=";"))
+        if len(zeilen) < 1000 or "a_nr" not in zeilen[0]: raise ValueError(f"unerwartete Bestandsdatei ({len(zeilen)} Zeilen)")
+        return {r["a_nr"].strip(): int(r["a_stock"] or 0) for r in zeilen}
+    except Exception as e:
+        print(f"WARNUNG: Bestandsdatei nicht verwendet ({e}); es gilt der Bestand der Produktdatei.")
+        return {}
+
 def hood_zeile(c, kat):
     nr = "CLP-" + c["clp_item_no"]
     farbe = (c.get("color") or "").strip()
@@ -110,6 +125,9 @@ def main():
     jetzt = datetime.now(timezone.utc)
     regeln = kategorien_laden()
     katalog = katalog_laden()
+    bestand = bestand_laden()
+    for c in katalog:
+        if c["clp_item_no"] in bestand: c["quantity"] = str(bestand[c["clp_item_no"]])
     neu, ohne, uebersprungen = {}, {}, {"Lager": 0, "Spedition": 0, "Kategorie": 0, "Bild fehlt": 0}
     for c in katalog:
         name = c["product_name"]
