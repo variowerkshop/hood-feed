@@ -1,0 +1,14 @@
+# Stichwort im Artikelnamen | Hood-Kategorienummer   (Gross/Klein egal, Zeilen mit # sind Kommentare)
+# Nur Artikel mit einem passenden Stichwort kommen zu Hood. Fehlende Stichwoerter listet das Skript in ohne_kategorie.txt.
+Bodenschutzmatte | 7976
+Gewürzgläser | 28406
+Deko-Kissen | 12775
+Schneidebrett | 12398
+Bodenrollen | 27819
+Abdeckplane | 22605
+Kaminholz | 22605
+Doppelrollo | 12784
+Schminkspiegel | 22429
+Sitzkissen | 29270
+Taschentuchbox | 29047
+Teebox | 26357
